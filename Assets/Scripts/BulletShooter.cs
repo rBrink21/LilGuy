@@ -6,16 +6,23 @@ public class BulletShooter : MonoBehaviour
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private float timeBetweenShots = 1f;
     [SerializeField] private float bulletSpeed;
-    
-    private float timeSinceLastShot;
+    private Transform currentTarget;
+    public bool friendlyShooter;
+
+    private float timeSinceLastShot = Mathf.Infinity;
     private void Update()
     {
         timeSinceLastShot += Time.deltaTime;
-        var target = GameObject.FindGameObjectWithTag("Player");
-        if (timeSinceLastShot > timeBetweenShots)
+        
+        if (timeSinceLastShot > timeBetweenShots && currentTarget != null)
         {
-            ShootBullet(target.transform);
+            ShootBullet(currentTarget.transform);
         }
+    }
+
+    public void SetTarget(Transform target)
+    {
+        currentTarget = target;
     }
 
     private void ShootBullet(Transform target)
@@ -25,7 +32,15 @@ public class BulletShooter : MonoBehaviour
         var bullet = Instantiate(bulletPrefab);
         Destroy(bullet,  bulletPrefab.GetComponent<Bullet>().lifetime);
         bullet.transform.position = transform.position;
-        bullet.transform.LookAt(target);
+        bullet.layer = friendlyShooter ? 7 : 6;
+        
+
+        Quaternion rotation = Quaternion.LookRotation(
+            target.transform.position - transform.position ,
+            transform.TransformDirection(Vector3.forward)
+        );
+        bullet.transform.rotation = new Quaternion( 0 , 0 , rotation.z , rotation.w );
+        
         bullet.GetComponent<Rigidbody2D>().linearVelocity = GetDirectionToTarget(target) * bulletSpeed;
     }
 

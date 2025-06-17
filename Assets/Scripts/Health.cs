@@ -7,7 +7,7 @@ public class Health : MonoBehaviour
 {
     [SerializeField] private int maxHealth = 10;
     private int currentHealth;
-
+    public Action hasDied;
     private void Start()
     {
         currentHealth = maxHealth;
@@ -25,6 +25,6 @@ public class Health : MonoBehaviour
 
     private void Die()
     {
-        print("you died!");
+        hasDied?.Invoke();
     }
 }
