@@ -1,0 +1,23 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/style.uss?fileID=7433441132597879392&amp;guid=a82ee0d3e24f8c445ba7cfd18ef4158a&amp;type=3#style" />
+    <engine:VisualElement style="flex-grow: 1; flex-direction: row; background-image: url(&quot;project://database/Assets/UI/Assets/cancer-cells-cells-scan-electron-microscope-scan-796d2c6d2699e6d2c679439588629e1b.jpg?fileID=2800000&amp;guid=1e8cd1f375ee7554c930df3e667f351c&amp;type=3#cancer-cells-cells-scan-electron-microscope-scan-796d2c6d2699e6d2c679439588629e1b&quot;);">
+        <engine:VisualElement name="art" style="flex-grow: 4;" />
+        <engine:VisualElement name="panel" style="flex-grow: 0.8; background-image: url(&quot;project://database/Assets/UI/Assets/Panel.png?fileID=2800000&amp;guid=70dcf32af4b9e79488013c0165557b5b&amp;type=3#Panel&quot;); flex-shrink: 0.8; flex-basis: 200px;">
+            <engine:VisualElement name="logoBox" style="flex-grow: 1; flex-basis: 10px;">
+                <engine:VisualElement name="logo" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI/Assets/output-onlinepngtools.png?fileID=2800000&amp;guid=244ccb893f323a249adf113c338b3ac8&amp;type=3#output-onlinepngtools&quot;); background-size: 250px 250px;" />
+            </engine:VisualElement>
+            <engine:VisualElement style="flex-grow: 1; padding-left: 49px; padding-right: 49px; padding-top: 100px; flex-basis: 300px;">
+                <engine:VisualElement name="startButton" class="button">
+                    <engine:Label text="Play Game" style="color: rgb(255, 255, 255); -unity-text-align: upper-center;" />
+                </engine:VisualElement>
+                <engine:VisualElement name="VisualElement" class="button">
+                    <engine:Label text="Credits&#10;" style="color: rgb(255, 255, 255); -unity-text-align: upper-center;" />
+                </engine:VisualElement>
+                <engine:VisualElement name="exitbutton" class="button">
+                    <engine:Label text="Exit&#10;" style="color: rgb(255, 255, 255); -unity-text-align: upper-center;" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="rightPad" style="flex-grow: 0.5;" />
+    </engine:VisualElement>
+</engine:UXML>
