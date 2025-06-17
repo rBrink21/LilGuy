@@ -12,12 +12,31 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private int maxEnemiesAlive;
     [Tooltip("How many enemies it will spawn before it stops spawning all together. Set to -1 to enforce no limit")]
     [SerializeField] private int maxEnemiesSpawned;
-
+    [Tooltip("How close the player has to be to the spawner to initiate spawning.")]
+    [SerializeField] private float minimumSpawnRange;
+    [Tooltip("Choose if you want the minimumSpawnRange sphere drawn.")]
+    [SerializeField] private bool drawDebugMinSpawnRangeSphere;
     private int currentAlive;
     private int spawned;
     private float timeSinceLastSpawned = Mathf.Infinity;
     public Action<Health> enemyCreated;
-    
+    private GameObject player;
+
+    private void OnDrawGizmos()
+    {
+        if (!drawDebugMinSpawnRangeSphere)
+        {
+            return;
+        }
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, minimumSpawnRange);
+    }
+
+    private void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+    }
+
     private void Update()
     {
         timeSinceLastSpawned += Time.deltaTime;
@@ -34,6 +53,10 @@ public class EnemySpawner : MonoBehaviour
             return false;
         }
 
+        if (Vector2.Distance(transform.position, player.transform.position) > minimumSpawnRange)
+        {
+            return false;
+        }
         if (maxEnemiesSpawned > -1)
         {
             if (spawned >= maxEnemiesSpawned)

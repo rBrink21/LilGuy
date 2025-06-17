@@ -10,10 +10,11 @@ public class EnemyAI : MonoBehaviour
     private BulletShooter bs;
     private bool hasBulletShooter;
     private Health health;
-    
 
     [SerializeField] private float movementSpeed;
     [SerializeField] private float maxMovementSpeed;
+    [Tooltip("How far before the enemy will engage the player. Highlighted with a blue circle.")]
+    [SerializeField] private float aggroRange;
     
     private void Start()
     {
@@ -37,10 +38,22 @@ public class EnemyAI : MonoBehaviour
 
     private void FixedUpdate()
     {
-        FloatyMovement();
+        if (GetDistanceToTarget() < aggroRange)
+        {
+            bs.SetTarget(target);
+            FloatyMovement();
+        }
+        else
+        {
+            bs.SetTarget(null);
+        }
         ClampMaxSpeed();
     }
 
+    private float GetDistanceToTarget()
+    {
+        return Vector2.Distance(transform.position, target.transform.position);
+    }
     private void FloatyMovement()
     {
         Vector2 directionToPlayer = transform.position - target.transform.position;
@@ -53,6 +66,12 @@ public class EnemyAI : MonoBehaviour
         {
             rb.linearVelocity *= 0.9f;
         }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(transform.position, aggroRange);
     }
 
     private void HandleDeath()

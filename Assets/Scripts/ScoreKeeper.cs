@@ -6,7 +6,7 @@ public class ScoreKeeper : MonoBehaviour
 {
     private VisualElement doc;
 
-    private int score = 0;
+    [HideInInspector] public int score = 0;
     
     private void Start()
     {
@@ -18,7 +18,6 @@ public class ScoreKeeper : MonoBehaviour
         {
             enemySpawner.enemyCreated += (enemyHealth) =>
             {
-                print("reached");
                 enemyHealth.hasDied += UpdateScore;
             };
         }
@@ -26,11 +25,8 @@ public class ScoreKeeper : MonoBehaviour
 
     private void UpdateScore()
     {
-        print("updated!");
         var scoreValue = doc.Q<Label>("scoreValue");
         score++;
         scoreValue.text = score.ToString();
     }
-    
-    // 350225640362736
 }

@@ -3,6 +3,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Health))]
 public class PlayerComponent : MonoBehaviour
 {
     [SerializeField] private float movementSpeed = 40f;

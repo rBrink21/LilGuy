@@ -15,16 +15,19 @@ public class FriendAI : MonoBehaviour
     [Header("Movement")]
     [Tooltip("How far the friend will float away from the player")]
     [SerializeField] private float springDistance;
-    [Range(0,1)]
+    
     [Tooltip("Amount of velocity lost per 'spring', 0-1")]
-    [SerializeField] private float springDampening;
+    [SerializeField][Range(0,1)] private float springDampening;
 
     [Header("Targeting")]
     [Tooltip("How far the enemies have to be for this friend to shoot at it. Visualized with a blue orb.")]
     [SerializeField] private float targetingDistance = 1f;
+    
     [Tooltip("We dont want to run this every frame since it is expensive so there is a small delay, adjust down if friends take too long to find a new target.")]
     [SerializeField] private float timeBetweenTargetUpdates = 0.5f;
     private float timeSinceLastTargetUpdate = Mathf.Infinity;
+    
+    
     
     private void Start()
     {

@@ -1,4 +1,5 @@
 .scoreText {
     font-size: 40px;
     -unity-text-align: middle-center;
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/Oxanium-Medium.ttf?fileID=12800000&guid=48dc5dfd82bbf364d89ffc08ac001008&type=3#Oxanium-Medium");
 }

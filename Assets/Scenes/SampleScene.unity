@@ -130,6 +130,8 @@ GameObject:
   - component: {fileID: 241156250}
   - component: {fileID: 241156249}
   - component: {fileID: 241156251}
+  - component: {fileID: 241156252}
+  - component: {fileID: 241156253}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -183,6 +185,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09c10915e592950428c2ac48df93ce89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
+--- !u!114 &241156252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241156248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2b155e0e8473342ba1812beb4c56f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &241156253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241156248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 845ca07f273f4745a3fee4ed30a3efb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverScreen: {fileID: 9197481963319205126, guid: 11eadfea27c52c6479b7db94c94427a8, type: 3}
 --- !u!50 &334889487 stripped
 Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 6777991808588235239, guid: 856df369c6152e842bba1257d990c2f4, type: 3}
@@ -713,6 +741,14 @@ PrefabInstance:
     - target: {fileID: 562150370382645360, guid: a760b7aaf3121624183b2b81c1479250, type: 3}
       propertyPath: maxEnemiesSpawned
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 562150370382645360, guid: a760b7aaf3121624183b2b81c1479250, type: 3}
+      propertyPath: minimumSpawnRange
+      value: 18.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 562150370382645360, guid: a760b7aaf3121624183b2b81c1479250, type: 3}
+      propertyPath: drawDebugMinSpawnRangeSphere
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4904234254744727577, guid: a760b7aaf3121624183b2b81c1479250, type: 3}
       propertyPath: m_LocalScale.x

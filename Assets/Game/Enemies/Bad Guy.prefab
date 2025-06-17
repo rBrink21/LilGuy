@@ -149,6 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 1
   maxMovementSpeed: 5
+  aggroRange: 8
 --- !u!114 &-7311164565526930028
 MonoBehaviour:
   m_ObjectHideFlags: 0

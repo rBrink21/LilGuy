@@ -7,8 +7,8 @@ public class BulletShooter : MonoBehaviour
     [SerializeField] private float timeBetweenShots = 1f;
     [SerializeField] private float bulletSpeed;
     private Transform currentTarget;
-    public bool friendlyShooter;
-
+    [HideInInspector] public bool friendlyShooter;
+    
     private float timeSinceLastShot = Mathf.Infinity;
     private void Update()
     {

@@ -1,11 +1,19 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/style.uss?fileID=7433441132597879392&amp;guid=386e96d018dc0ff4c8525314f2314bfb&amp;type=3#style" />
-    <engine:VisualElement name="header" style="flex-grow: 5; flex-direction: row;">
-        <engine:VisualElement name="scoreCard" style="flex-grow: 1; justify-content: center; flex-direction: row;">
-            <engine:Label text="Score:" name="scoreLabel" class="scoreText" />
-            <engine:Label text="000" name="scoreValue" class="scoreText" />
+    <engine:VisualElement name="entireScreen" style="flex-grow: 1;">
+        <engine:VisualElement name="header" style="flex-grow: 5; flex-direction: row; flex-basis: 64px;">
+            <engine:VisualElement name="scoreCard" style="flex-grow: 1; justify-content: center; flex-direction: row;">
+                <engine:Label text="Score:" name="scoreLabel" class="scoreText" />
+                <engine:Label text="000" name="scoreValue" class="scoreText" />
+            </engine:VisualElement>
+            <engine:VisualElement style="flex-grow: 5;" />
+            <engine:VisualElement name="healthCard" style="flex-grow: 1; justify-content: center; flex-direction: row;">
+                <engine:Label text="Health" name="healthLabel" class="scoreText" />
+                <engine:Label text="000" name="healthValue" class="scoreText" />
+            </engine:VisualElement>
         </engine:VisualElement>
-        <engine:VisualElement style="flex-grow: 5;" />
+        <engine:VisualElement name="body" style="flex-grow: 100; opacity: 1; display: flex;">
+            <engine:VisualElement style="flex-grow: 1; flex-basis: -59px;" />
+        </engine:VisualElement>
     </engine:VisualElement>
-    <engine:VisualElement name="body" style="flex-grow: 100;" />
 </engine:UXML>
