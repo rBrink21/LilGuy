@@ -14,6 +14,7 @@ public class EnemyAI : MonoBehaviour
 
     [SerializeField] private float movementSpeed;
     [SerializeField] private float maxMovementSpeed;
+    
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
