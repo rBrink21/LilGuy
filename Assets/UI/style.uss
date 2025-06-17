@@ -1,0 +1,4 @@
+.scoreText {
+    font-size: 40px;
+    -unity-text-align: middle-center;
+}

@@ -8,7 +8,7 @@ public class Bullet : MonoBehaviour
     [SerializeField] public float lifetime;
 
     [SerializeField] public bool destroyAfterHit;
-
+    
 
     private void Start()
     {

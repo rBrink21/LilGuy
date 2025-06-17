@@ -16,7 +16,8 @@ public class EnemySpawner : MonoBehaviour
     private int currentAlive;
     private int spawned;
     private float timeSinceLastSpawned = Mathf.Infinity;
-
+    public Action<Health> enemyCreated;
+    
     private void Update()
     {
         timeSinceLastSpawned += Time.deltaTime;
@@ -68,6 +69,7 @@ public class EnemySpawner : MonoBehaviour
         Health enemyHealth = enemyInstance.GetComponent<Health>();
         if (enemyHealth != null)
         {
+            enemyCreated.Invoke(enemyHealth);
             enemyHealth.hasDied += () =>  currentAlive--;
         }
     }
