@@ -177,7 +177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e67523157f255004a8f6406e24ff8552, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 2
+  damage: 3
   lifetime: 20
   destroyAfterHit: 1
 --- !u!114 &1483467704144088721

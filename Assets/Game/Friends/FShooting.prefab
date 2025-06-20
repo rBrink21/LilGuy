@@ -189,7 +189,7 @@ SpringJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 2.160116
+  m_Distance: 2.8011782
   m_DampingRatio: 0
   m_Frequency: 1
 --- !u!114 &5450588845776715161
@@ -204,7 +204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4092b9a64db9d364b8d5995fb520cb66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 8080129663335587918, guid: d8f10d15b61fa3047ab90db2f14862f1, type: 3}
-  timeBetweenShots: 0.1
+  bulletPrefab: {fileID: 8080129663335587918, guid: 6fda8ee690f9a6e4496bcc6540d44b28, type: 3}
+  timeBetweenShots: 0.33
   bulletSpeed: 12
   friendlyShooter: 0
