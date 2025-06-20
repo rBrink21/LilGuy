@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 8025877141866784556}
   - component: {fileID: 6213771975594901837}
   - component: {fileID: 1483467704144088721}
-  - component: {fileID: 1801659952059253700}
+  - component: {fileID: 1594757700974670818}
   m_Layer: 6
-  m_Name: BSniperBullet
+  m_Name: BFriendRockets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,13 +30,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8080129663335587918}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 1.0008066, y: -2.5968633, z: -0.033356063}
-  m_LocalScale: {x: 5, y: 30, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!212 &448474242354427205
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -81,12 +81,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: -6141377640103788678, guid: 244ccb893f323a249adf113c338b3ac8, type: 3}
+  m_Color: {r: 0.5320754, g: 0.5320754, b: 0.5320754, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.16, y: 0.16}
+  m_Size: {x: 2.19, y: 2.44}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -157,8 +157,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.2, y: 0.2}
-    newSize: {x: 0.16, y: 0.16}
+    oldSize: {x: 2.19, y: 2.44}
+    newSize: {x: 2.19, y: 2.44}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -177,8 +177,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e67523157f255004a8f6406e24ff8552, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 2
-  lifetime: 20
+  damage: 3
+  lifetime: 8
   destroyAfterHit: 1
 --- !u!114 &1483467704144088721
 MonoBehaviour:
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 1
---- !u!82 &1801659952059253700
+--- !u!82 &1594757700974670818
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -203,8 +203,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 6418180475301049370, guid: b58ac1e3033907247a1491b567061ca3, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 601cb8e075ae54a4aa6dc5c94374c370, type: 3}
+  m_Resource: {fileID: 8300000, guid: 601cb8e075ae54a4aa6dc5c94374c370, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-4939866349764399288
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ui sound normalised mp3-107_{-4939866349764399288}
+  m_AudioClip: {fileID: 8300000, guid: b10e2d769f2ee274cb08ceecd27f0e73, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4484006310949226436
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ui sound normalised mp3-103_{-4484006310949226436}
+  m_AudioClip: {fileID: 8300000, guid: af7c11c8c2cf6724d87d5e7c1ee723b6, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4117454064043249919
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ui sound normalised mp3-105_{-4117454064043249919}
+  m_AudioClip: {fileID: 8300000, guid: 7582c4b325ceb024391db1055852116b, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3743969629602134437
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ui sound normalised mp3-101_{-3743969629602134437}
+  m_AudioClip: {fileID: 8300000, guid: 2e9ba8d213c65964e94dacb9fe27975b, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-1508445593899976280
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ui sound normalised mp3-104_{-1508445593899976280}
+  m_AudioClip: {fileID: 8300000, guid: 32f578723ba38954d92af6bafad2e04a, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &384335967516733912
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ui sound normalised mp3-102_{384335967516733912}
+  m_AudioClip: {fileID: 8300000, guid: c955d101e7023ec459aab956aba6f6e5, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2073225667228646128
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ui sound normalised mp3-100_{2073225667228646128}
+  m_AudioClip: {fileID: 8300000, guid: c76b2f1b6115fe74db6c4d407095e715, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &4777228699960156662
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ui sound normalised mp3-106_{4777228699960156662}
+  m_AudioClip: {fileID: 8300000, guid: 98cb9fe860000814babf405720b87367, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Underwater Bullet Type 2
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 120
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 50}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 2073225667228646128}
+  - {fileID: -3743969629602134437}
+  - {fileID: 384335967516733912}
+  - {fileID: -4484006310949226436}
+  - {fileID: -1508445593899976280}
+  - {fileID: -4117454064043249919}
+  - {fileID: 4777228699960156662}
+  - {fileID: -4939866349764399288}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 1
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 0
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 1
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0

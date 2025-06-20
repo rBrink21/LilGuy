@@ -151,6 +151,7 @@ GameObject:
   - component: {fileID: 662800189191505783}
   - component: {fileID: 8431588104050807819}
   - component: {fileID: 6241963448709543156}
+  - component: {fileID: -4763388961148107951}
   m_Layer: 8
   m_Name: Lil Guy
   m_TagString: Player
@@ -329,3 +330,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+--- !u!81 &-4763388961148107951
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059408094611728429}
+  m_Enabled: 1
