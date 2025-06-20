@@ -69,8 +69,21 @@ public class FriendAI : MonoBehaviour
     private Transform FindTarget()
     {
         timeSinceLastTargetUpdate = 0;
-        // TODO make friends more intelligent!
         var enemies = GameObject.FindGameObjectsWithTag("Enemy");
-        return enemies.Any() ? enemies.First().transform : null;
+
+        var closestEnemyDistance = Mathf.Infinity;
+        GameObject closestEnemy = null;
+
+        foreach (var enemy in enemies)
+        {
+            var distance = Vector2.Distance(enemy.transform.position, transform.position);
+            if (distance < closestEnemyDistance)
+            {
+                closestEnemy = enemy;
+                closestEnemyDistance = distance;
+            }
+        }
+        
+        return closestEnemy != null ? closestEnemy.transform : null;
     }
 }
