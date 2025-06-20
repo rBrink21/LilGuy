@@ -268,7 +268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb925ab7d5aacc14eb6c99799bcd34d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 40
+  movementSpeed: 50
   maxMovementSpeed: 1
 --- !u!61 &8431588104050807819
 BoxCollider2D:
@@ -328,4 +328,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc0a1fb22b91f25429558262a172ecdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 100
