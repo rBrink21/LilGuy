@@ -37,7 +37,7 @@ public class BulletShooter : MonoBehaviour
 
         Quaternion rotation = Quaternion.LookRotation(
             target.transform.position - transform.position ,
-            transform.TransformDirection(Vector3.forward)
+            transform.TransformDirection(Vector3.back)
         );
         bullet.transform.rotation = new Quaternion( 0 , 0 , rotation.z , rotation.w );
         

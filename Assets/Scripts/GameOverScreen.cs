@@ -13,6 +13,7 @@ public class GameOverScreen : MonoBehaviour
     {
         doc = GetComponent<UIDocument>();
         scoreKeeper = FindFirstObjectByType<ScoreKeeper>();
+        Time.timeScale = 1;
     }
 
     public void Initialize()
