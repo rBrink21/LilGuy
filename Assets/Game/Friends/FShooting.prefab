@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.79, y: 0.25, z: -0.07356333}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 8, y: 8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -81,8 +81,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4548562631146149808, guid: 244ccb893f323a249adf113c338b3ac8, type: 3}
-  m_Color: {r: 0.04295969, g: 0, b: 1, a: 1}
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Color: {r: 0, g: 1, b: 0.9828806, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -131,10 +131,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02e495a2670b7ea49a1ccb949b30525b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  springDistance: 5
-  springDampening: 0.278
+  springDistance: 8
+  springDampening: 0.305
   targetingDistance: 24
-  timeBetweenTargetUpdates: 0.03
+  timeBetweenTargetUpdates: 0.5
 --- !u!58 &7522883528269582880
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -204,7 +204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4092b9a64db9d364b8d5995fb520cb66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 8080129663335587918, guid: 6fda8ee690f9a6e4496bcc6540d44b28, type: 3}
-  timeBetweenShots: 0.33
+  bulletPrefab: {fileID: 8080129663335587918, guid: aefffb5f74c0785429b2ebb31a5f65b5, type: 3}
+  timeBetweenShots: 0.3
   bulletSpeed: 12
   friendlyShooter: 0

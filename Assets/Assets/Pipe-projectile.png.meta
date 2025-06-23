@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pipe-projectile_0: 4398578583236300583
+      Pipe-projectile_1: -5342148896398080663
+      Pipe-projectile_2: 1070432661461939900
+      Pipe-projectile_3: -4010770667799726442
+      Pipe-projectile_4: 1678414965786307598
+      Pipe-projectile_5: 6694565172202603568
+      Pipe-projectile_6: 671673967687223930
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
