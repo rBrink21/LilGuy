@@ -7,6 +7,8 @@ public class Bullet : MonoBehaviour
     [SerializeField] private int damage;
     [SerializeField] public float lifetime;
 
+    [Tooltip("Toggle whether this bullet should be destroyed by regular means, will still die on collision with a wall")]
+    [SerializeField] public bool invulnerable;
     [SerializeField] public bool destroyAfterHit;
     
 
@@ -30,12 +32,16 @@ public class Bullet : MonoBehaviour
         otherHealth.UpdateHealth(-damage);
         if (destroyAfterHit)
         {
-            Destroy(gameObject);
+            HandleDeath();
         };
     }
 
     private void HandleDeath()
     {
+        if (invulnerable)
+        {
+            return;
+        }
         Destroy(gameObject);
     }
 }

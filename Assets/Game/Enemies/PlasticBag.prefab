@@ -147,9 +147,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53525de635e0f1149b2b2ec1a92e127b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 0
+  acceleration: 0
   maxMovementSpeed: 0
   aggroRange: 16
+  shouldAvoidAllies: 1
+  avoidAlliesRange: 10
+  avoidAlliesForce: 1
 --- !u!114 &-7311164565526930028
 MonoBehaviour:
   m_ObjectHideFlags: 0

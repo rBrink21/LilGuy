@@ -175,6 +175,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lil Guy
       objectReference: {fileID: 0}
+    - target: {fileID: 6777991808588235239, guid: 856df369c6152e842bba1257d990c2f4, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6777991808588235239, guid: 856df369c6152e842bba1257d990c2f4, type: 3}
+      propertyPath: m_AngularDamping
+      value: 0.4
+      objectReference: {fileID: 0}
     - target: {fileID: 8106326584417213587, guid: 856df369c6152e842bba1257d990c2f4, type: 3}
       propertyPath: m_Antialiasing
       value: 0
