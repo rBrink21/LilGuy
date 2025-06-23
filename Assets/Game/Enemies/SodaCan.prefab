@@ -50,8 +50,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 9212754429173673561, guid: 7edd11c4a7da119448e7f5442bf18b7b, type: 3}
-  timeBetweenShots: 0.8
-  bulletSpeed: 2
+  timeBetweenShots: 1
+  bulletSpeed: 7
   friendlyShooter: 0
 --- !u!212 &6162130001017592421
 SpriteRenderer:
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc0a1fb22b91f25429558262a172ecdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 2
+  maxHealth: 5
 --- !u!58 &-2791610433201619413
 CircleCollider2D:
   m_ObjectHideFlags: 0
