@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 7eead9b68e085074eb6a5548c604da4c
   - enabled: 1
+    path: Assets/Scenes/IntroCutScene.unity
+    guid: 8390fe237f7781d4590222e6f45c1b24
+  - enabled: 1
     path: Assets/Scenes/WilfTestLevel.unity
     guid: f258694ef4300b44e9d94729b0cef4a9
   - enabled: 1
