@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Random = System.Random;
+
 [CreateAssetMenu]
 public class DialogueList : ScriptableObject
 {
@@ -10,13 +12,12 @@ public class DialogueList : ScriptableObject
     {
         public int index;
         public string text;
+        [HideInInspector]
         public bool shown;
     }
     
     [SerializeField]
     public List<DialogueLine> dialogueLines;
-
-    public static int amountShown;
     
     public DialogueLine GetLineByIndex(int index)
     {
@@ -28,5 +29,12 @@ public class DialogueList : ScriptableObject
         var line = dialogueLines.First(d => d.shown != true);
         line.shown = true;
         return line;
+    }
+
+    public DialogueLine GetRandom()
+    {
+        var random = new Random();
+        var i = random.Next(0, dialogueLines.Count);
+        return dialogueLines[i];
     }
 }

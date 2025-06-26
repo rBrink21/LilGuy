@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - index: 0
-    text: 
+    text: Helllo im line 1
+    shown: 0
+  - index: 1
+    text: Helllo im line 2
     shown: 0
