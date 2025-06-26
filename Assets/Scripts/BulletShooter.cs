@@ -1,4 +1,5 @@
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BulletShooter : MonoBehaviour
@@ -10,6 +11,7 @@ public class BulletShooter : MonoBehaviour
     [HideInInspector] public bool friendlyShooter;
 
     [SerializeField] private bool shootAtFixedAngle;
+    [Range(0,360)]
     [SerializeField] private float fixedAngle;
     [SerializeField] private float debugFixedAngleLineLength = 10f;
     private float timeSinceLastShot = Mathf.Infinity;
@@ -19,10 +21,9 @@ public class BulletShooter : MonoBehaviour
         if (shootAtFixedAngle)
         {
             Gizmos.color = Color.red;
-
-            var targetPosition = transform.position +
-                                 new Vector3(AngleToDirection(fixedAngle).x, AngleToDirection(fixedAngle).y, 0) * 5;
-            Gizmos.DrawLine(transform.position, targetPosition);
+            Vector2 direction = GetDirectionFromAngle(fixedAngle);
+            Vector3 endPoint = transform.position + (Vector3)(direction * debugFixedAngleLineLength);
+            Gizmos.DrawLine(transform.position, endPoint);
         }
     }
 
@@ -30,50 +31,46 @@ public class BulletShooter : MonoBehaviour
     {
         timeSinceLastShot += Time.deltaTime;
         
-        if (timeSinceLastShot > timeBetweenShots && currentTarget != null)
+        if (timeSinceLastShot > timeBetweenShots && (currentTarget != null || shootAtFixedAngle))
         {
-            ShootBullet(currentTarget.transform.position);
+            if (shootAtFixedAngle)
+            {
+                Vector2 direction = GetDirectionFromAngle(fixedAngle);
+                ShootBullet(direction);
+                return;
+            }
+            ShootBullet(GetDirectionToTarget(currentTarget.transform.position));
         }
     }
 
     public void SetTarget(Transform target)
     {
+        if (shootAtFixedAngle) return;
         currentTarget = target;
     }
 
-    private void ShootBullet(Vector3 target)
+    private void ShootBullet(Vector2 direction)
     {
         timeSinceLastShot = 0;
         
-        var bullet = Instantiate(bulletPrefab);
-        Destroy(bullet,  bulletPrefab.GetComponent<Bullet>().lifetime);
-        bullet.transform.position = transform.position;
+        GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+        Destroy(bullet, bullet.GetComponent<Bullet>().lifetime);
         bullet.layer = friendlyShooter ? 7 : 6;
         
-
-        Quaternion rotation = Quaternion.LookRotation(
-            target - transform.position ,
-            transform.TransformDirection(Vector3.back)
-        );
-        bullet.transform.rotation = new Quaternion( 0 , 0 , rotation.z , rotation.w );
+        // Set proper 2D rotation
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        bullet.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
         
-        bullet.GetComponent<Rigidbody2D>().linearVelocity = GetDirectionToTarget(target) * bulletSpeed;
+        bullet.GetComponent<Rigidbody2D>().linearVelocity = direction * bulletSpeed;
     }
-
-    private Vector3 GetRotationToTarget(Transform target)
+    private Vector2 GetDirectionToTarget(Vector3 target)
     {
-        var direction = Quaternion.FromToRotation(transform.position, GameObject.FindGameObjectWithTag("Player").transform.position);
-        return direction.eulerAngles;
+        return ((Vector2)(target - transform.position)).normalized;
     }
-
-    private Vector3 GetDirectionToTarget(Vector3 target)
-    {
-        return (target - transform.position).normalized;
-    }
-
-    private static Vector2 AngleToDirection(float angle)
+    
+    private Vector2 GetDirectionFromAngle(float angle)
     {
         float angleRad = angle * Mathf.Deg2Rad;
-        return new Vector2(Mathf.Cos(angleRad), -Mathf.Sin(angleRad));
+        return new Vector2(Mathf.Cos(angleRad), Mathf.Sin(angleRad));
     }
 }
