@@ -57,10 +57,11 @@ public class BulletShooter : MonoBehaviour
         Destroy(bullet, bullet.GetComponent<Bullet>().lifetime);
         bullet.layer = friendlyShooter ? 7 : 6;
         
-        // Set proper 2D rotation
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        bullet.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-        
+        Quaternion rotation = Quaternion.LookRotation(
+            new Vector3(direction.x, direction.y, transform.position.z) - transform.position ,
+            transform.TransformDirection(Vector3.back)
+        );
+        bullet.transform.rotation = new Quaternion( 0 , 0 , rotation.z , rotation.w );
         bullet.GetComponent<Rigidbody2D>().linearVelocity = direction * bulletSpeed;
     }
     private Vector2 GetDirectionToTarget(Vector3 target)
