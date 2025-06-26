@@ -3,8 +3,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class PipeTeleporter : MonoBehaviour
 {
+    [SerializeField] private int sceneToLoad;
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(sceneToLoad);
     }
 }
