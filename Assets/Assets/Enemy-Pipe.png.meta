@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fad918d6aeb845540bba18d4319ea73f
+guid: da24f46f6f5d29848801b75cf4fd86f8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2354766031502586279
-    second: Pipes-background_smaller_0
+      213: 7868643954162400473
+    second: Enemy-Pipe_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pipes-background_smaller_0
+      name: Enemy-Pipe_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 4
         y: 0
-        width: 1080
-        height: 1080
+        width: 492
+        height: 376
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a13ed4ca3fcda020800000000000000
-      internalID: 2354766031502586279
+      spriteID: 9dcffd78cf9033d60800000000000000
+      internalID: 7868643954162400473
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Pipes-background_smaller_0: 2354766031502586279
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
