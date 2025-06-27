@@ -49,7 +49,7 @@ public class BulletShooter : MonoBehaviour
         currentTarget = target;
     }
 
-    private void ShootBullet(Vector2 direction)
+    private void ShootBullet(Vector3 direction)
     {
         timeSinceLastShot = 0;
         
@@ -57,16 +57,14 @@ public class BulletShooter : MonoBehaviour
         Destroy(bullet, bullet.GetComponent<Bullet>().lifetime);
         bullet.layer = friendlyShooter ? 7 : 6;
         
-        Quaternion rotation = Quaternion.LookRotation(
-            new Vector3(direction.x, direction.y, transform.position.z) - transform.position ,
-            transform.TransformDirection(Vector3.back)
-        );
-        bullet.transform.rotation = new Quaternion( 0 , 0 , rotation.z , rotation.w );
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90;
+        bullet.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        
         bullet.GetComponent<Rigidbody2D>().linearVelocity = direction * bulletSpeed;
     }
-    private Vector2 GetDirectionToTarget(Vector3 target)
+    private Vector3 GetDirectionToTarget(Vector3 target)
     {
-        return ((Vector2)(target - transform.position)).normalized;
+        return (target - transform.position).normalized;
     }
     
     private Vector2 GetDirectionFromAngle(float angle)
