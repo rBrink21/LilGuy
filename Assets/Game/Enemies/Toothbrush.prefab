@@ -50,9 +50,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4092b9a64db9d364b8d5995fb520cb66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 8080129663335587918, guid: 6ea3f67a380cca548b880cb9bf736b4d, type: 3}
-  timeBetweenShots: 0.8
-  bulletSpeed: 10
+  bulletPrefab: {fileID: 8080129663335587918, guid: b60a4eac2052b4542a217ad084d9a926, type: 3}
+  timeBetweenShots: 0.03
+  bulletSpeed: 15
   friendlyShooter: 0
   shootAtFixedAngle: 0
   fixedAngle: 0
@@ -124,9 +124,9 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_Mass: 2
+  m_LinearDamping: 2
+  m_AngularDamping: 2
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   acceleration: 2
   maxMovementSpeed: 2
-  aggroRange: 24
+  aggroRange: 32
   shouldAvoidAllies: 1
   avoidAlliesRange: 10
   avoidAlliesForce: 2

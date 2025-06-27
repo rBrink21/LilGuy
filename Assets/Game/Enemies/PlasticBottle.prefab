@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -49,9 +49,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4092b9a64db9d364b8d5995fb520cb66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 8080129663335587918, guid: 6ea3f67a380cca548b880cb9bf736b4d, type: 3}
-  timeBetweenShots: 1
-  bulletSpeed: 10
+  bulletPrefab: {fileID: 8080129663335587918, guid: b6a6cc86c5d1d394d94858b5d987fa26, type: 3}
+  timeBetweenShots: 0.8
+  bulletSpeed: 15
   friendlyShooter: 0
   shootAtFixedAngle: 0
   fixedAngle: 0

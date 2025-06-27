@@ -1,0 +1,1342 @@
+fileFormatVersion: 2
+guid: 465325c9349b0234ba3793931d8bbad7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5940866814523179940
+    second: Sprites-AlgaeBloom2_1000x1000_0
+  - first:
+      213: -8942632072442767511
+    second: Sprites-AlgaeBloom2_1000x1000_1
+  - first:
+      213: 8397012702159623238
+    second: Sprites-AlgaeBloom2_1000x1000_2
+  - first:
+      213: -7868995121078626816
+    second: Sprites-AlgaeBloom2_1000x1000_3
+  - first:
+      213: -7624121112700291522
+    second: Sprites-AlgaeBloom2_1000x1000_4
+  - first:
+      213: -8447818605565082770
+    second: Sprites-AlgaeBloom2_1000x1000_5
+  - first:
+      213: -11644114693464402
+    second: Sprites-AlgaeBloom2_1000x1000_6
+  - first:
+      213: -2079932286514763849
+    second: Sprites-AlgaeBloom2_1000x1000_7
+  - first:
+      213: 8857141949765545377
+    second: Sprites-AlgaeBloom2_1000x1000_8
+  - first:
+      213: 4211085349665565586
+    second: Sprites-AlgaeBloom2_1000x1000_9
+  - first:
+      213: -3904411264532775016
+    second: Sprites-AlgaeBloom2_1000x1000_10
+  - first:
+      213: -4018417265353404486
+    second: Sprites-AlgaeBloom2_1000x1000_11
+  - first:
+      213: 3822588613902763013
+    second: Sprites-AlgaeBloom2_1000x1000_12
+  - first:
+      213: -5532377935634913969
+    second: Sprites-AlgaeBloom2_1000x1000_13
+  - first:
+      213: -6553136207102766304
+    second: Sprites-AlgaeBloom2_1000x1000_14
+  - first:
+      213: -7514518151727026019
+    second: Sprites-AlgaeBloom2_1000x1000_15
+  - first:
+      213: -4663364895179154263
+    second: Sprites-AlgaeBloom2_1000x1000_16
+  - first:
+      213: -3105667191449544325
+    second: Sprites-AlgaeBloom2_1000x1000_17
+  - first:
+      213: -4183305403920712098
+    second: Sprites-AlgaeBloom2_1000x1000_18
+  - first:
+      213: 7641492518985761561
+    second: Sprites-AlgaeBloom2_1000x1000_19
+  - first:
+      213: -7423884827108623433
+    second: Sprites-AlgaeBloom2_1000x1000_20
+  - first:
+      213: 4553100573012016537
+    second: Sprites-AlgaeBloom2_1000x1000_21
+  - first:
+      213: -7883041204773264500
+    second: Sprites-AlgaeBloom2_1000x1000_22
+  - first:
+      213: 4443078765744851116
+    second: Sprites-AlgaeBloom2_1000x1000_23
+  - first:
+      213: 482753294292227900
+    second: Sprites-AlgaeBloom2_1000x1000_24
+  - first:
+      213: -6089344042605218744
+    second: Sprites-AlgaeBloom2_1000x1000_25
+  - first:
+      213: 3357450847998239887
+    second: Sprites-AlgaeBloom2_1000x1000_26
+  - first:
+      213: 2080130520505054287
+    second: Sprites-AlgaeBloom2_1000x1000_27
+  - first:
+      213: -661048486637114119
+    second: Sprites-AlgaeBloom2_1000x1000_28
+  - first:
+      213: 5393965540030311625
+    second: Sprites-AlgaeBloom2_1000x1000_29
+  - first:
+      213: -2199197188820292311
+    second: Sprites-AlgaeBloom2_1000x1000_30
+  - first:
+      213: 8228300438305108157
+    second: Sprites-AlgaeBloom2_1000x1000_31
+  - first:
+      213: -5100013546890995837
+    second: Sprites-AlgaeBloom2_1000x1000_32
+  - first:
+      213: 8771888295556857022
+    second: Sprites-AlgaeBloom2_1000x1000_33
+  - first:
+      213: -8678928776013487418
+    second: Sprites-AlgaeBloom2_1000x1000_34
+  - first:
+      213: 5531276970462975902
+    second: Sprites-AlgaeBloom2_1000x1000_35
+  - first:
+      213: -6547201835491704166
+    second: Sprites-AlgaeBloom2_1000x1000_36
+  - first:
+      213: 2490802908135650009
+    second: Sprites-AlgaeBloom2_1000x1000_37
+  - first:
+      213: -3446714936433201647
+    second: Sprites-AlgaeBloom2_1000x1000_38
+  - first:
+      213: -3517914565269893896
+    second: Sprites-AlgaeBloom2_1000x1000_39
+  - first:
+      213: 816816714280675553
+    second: Sprites-AlgaeBloom2_1000x1000_40
+  - first:
+      213: 903404801071283043
+    second: Sprites-AlgaeBloom2_1000x1000_41
+  - first:
+      213: 2624420500212335590
+    second: Sprites-AlgaeBloom2_1000x1000_42
+  - first:
+      213: -8917268533334210380
+    second: Sprites-AlgaeBloom2_1000x1000_43
+  - first:
+      213: 6759522214751043810
+    second: Sprites-AlgaeBloom2_1000x1000_44
+  - first:
+      213: 3926158934815913356
+    second: Sprites-AlgaeBloom2_1000x1000_45
+  - first:
+      213: -8074161601274849710
+    second: Sprites-AlgaeBloom2_1000x1000_46
+  - first:
+      213: -3281813986236758638
+    second: Sprites-AlgaeBloom2_1000x1000_47
+  - first:
+      213: 7951689188581733611
+    second: Sprites-AlgaeBloom2_1000x1000_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 609
+        width: 168
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a38f8944e2327250800000000000000
+      internalID: 5940866814523179940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 589
+        width: 320
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967980d928365e380800000000000000
+      internalID: -8942632072442767511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_2
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 220
+        width: 561
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644daa6309e288470800000000000000
+      internalID: 8397012702159623238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_3
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 748
+        width: 139
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00693dc01a6bbc290800000000000000
+      internalID: -7868995121078626816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_4
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 601
+        width: 184
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3671f80e3ea13690800000000000000
+      internalID: -7624121112700291522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_5
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 584
+        width: 290
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e638b589cb153ca80800000000000000
+      internalID: -8447818605565082770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_6
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 207
+        width: 504
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaed8f74db1a6dff0800000000000000
+      internalID: -11644114693464402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_7
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 768
+        width: 187
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7eb69fa989223e0800000000000000
+      internalID: -2079932286514763849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_8
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 575
+        width: 179
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad6cf81da3eaea70800000000000000
+      internalID: 8857141949765545377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_9
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 214
+        width: 559
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29beaa170d7c07a30800000000000000
+      internalID: 4211085349665565586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_10
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 558
+        width: 283
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f7d7034aeb0d9c0800000000000000
+      internalID: -3904411264532775016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_11
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 750
+        width: 189
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf4053a9c6bb38c0800000000000000
+      internalID: -4018417265353404486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_12
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 706
+        width: 85
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504802667109c0530800000000000000
+      internalID: 3822588613902763013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_13
+      rect:
+        serializedVersion: 2
+        x: 3054
+        y: 590
+        width: 193
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45a54f449b0933b0800000000000000
+      internalID: -5532377935634913969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_14
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 206
+        width: 511
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02393e2f6559e05a0800000000000000
+      internalID: -6553136207102766304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_15
+      rect:
+        serializedVersion: 2
+        x: 3522
+        y: 734
+        width: 142
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90f51cfd8117b790800000000000000
+      internalID: -7514518151727026019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_16
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 673
+        width: 105
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9acd1dcd556684fb0800000000000000
+      internalID: -4663364895179154263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_17
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 691
+        width: 117
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b799017d42476e4d0800000000000000
+      internalID: -3105667191449544325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_18
+      rect:
+        serializedVersion: 2
+        x: 3734
+        y: 676
+        width: 112
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e755436e9e1f5c0800000000000000
+      internalID: -4183305403920712098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_19
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 358
+        width: 119
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91383fba5f80c0a60800000000000000
+      internalID: 7641492518985761561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_20
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 461
+        width: 72
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb37ca451019f890800000000000000
+      internalID: -7423884827108623433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_21
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 357
+        width: 108
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d320909dcdf2f30800000000000000
+      internalID: 4553100573012016537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_22
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 464
+        width: 78
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83e8b75acfc99290800000000000000
+      internalID: -7883041204773264500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_23
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 458
+        width: 76
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca88d45d89cf8ad30800000000000000
+      internalID: 4443078765744851116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_24
+      rect:
+        serializedVersion: 2
+        x: 3153
+        y: 369
+        width: 140
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37107c309513b600800000000000000
+      internalID: 482753294292227900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_25
+      rect:
+        serializedVersion: 2
+        x: 3722
+        y: 438
+        width: 91
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844ff512bdd4e7ba0800000000000000
+      internalID: -6089344042605218744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_26
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 286
+        width: 82
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84e4c9f1cf089e20800000000000000
+      internalID: 3357450847998239887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_27
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 178
+        width: 185
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44f629ffab1edc10800000000000000
+      internalID: 2080130520505054287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_28
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 148
+        width: 295
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc6fae57eb73d6f0800000000000000
+      internalID: -661048486637114119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_29
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 271
+        width: 78
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc643884173bda40800000000000000
+      internalID: 5393965540030311625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_30
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 188
+        width: 204
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d24510fc1ea71e0800000000000000
+      internalID: -2199197188820292311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_31
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 128
+        width: 283
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0fd5a37abc03270800000000000000
+      internalID: 8228300438305108157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_32
+      rect:
+        serializedVersion: 2
+        x: 2491
+        y: 185
+        width: 208
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387d1eb33bc1939b0800000000000000
+      internalID: -5100013546890995837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_33
+      rect:
+        serializedVersion: 2
+        x: 2707
+        y: 153
+        width: 294
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebcb21aede10cb970800000000000000
+      internalID: 8771888295556857022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_34
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 276
+        width: 77
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2eccad2404e8780800000000000000
+      internalID: -8678928776013487418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_35
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 178
+        width: 200
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e979eb2491b03cc40800000000000000
+      internalID: 5531276970462975902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_36
+      rect:
+        serializedVersion: 2
+        x: 3669
+        y: 164
+        width: 303
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a924bb28e9aa325a0800000000000000
+      internalID: -6547201835491704166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_37
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 56
+        width: 208
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d27fe05c0c119220800000000000000
+      internalID: 2490802908135650009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_38
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 47
+        width: 35
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11eaddbd60fca20d0800000000000000
+      internalID: -3446714936433201647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_39
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 138
+        width: 63
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc4ae2775bdd2fc0800000000000000
+      internalID: -3517914565269893896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_40
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 61
+        width: 190
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e82d45597ae55b00800000000000000
+      internalID: 816816714280675553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_41
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 63
+        width: 50
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b7c3051e9898c00800000000000000
+      internalID: 903404801071283043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_42
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 152
+        width: 75
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3c8684a80db6420800000000000000
+      internalID: 2624420500212335590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_43
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 31
+        width: 203
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b888dfb38f7f3480800000000000000
+      internalID: -8917268533334210380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_44
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 47
+        width: 75
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0099d04a5aecd50800000000000000
+      internalID: 6759522214751043810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_45
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 154
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85bd61efb48c7630800000000000000
+      internalID: 3926158934815913356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_46
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 60
+        width: 232
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256d9e86dc0d2ff80800000000000000
+      internalID: -8074161601274849710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_47
+      rect:
+        serializedVersion: 2
+        x: 3298
+        y: 38
+        width: 53
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295037b3197a472d0800000000000000
+      internalID: -3281813986236758638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_48
+      rect:
+        serializedVersion: 2
+        x: 3370
+        y: 158
+        width: 84
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be47ab9ef231a5e60800000000000000
+      internalID: 7951689188581733611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
