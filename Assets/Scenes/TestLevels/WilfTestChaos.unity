@@ -425,15 +425,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: spawnDelay
-      value: 0.25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: maxEnemiesAlive
-      value: 36
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: maxEnemiesSpawned
-      value: 144
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 4904234254744727577, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -697,15 +697,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: spawnDelay
-      value: 0.25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: maxEnemiesAlive
-      value: 36
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: maxEnemiesSpawned
-      value: 144
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 4904234254744727577, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -770,15 +770,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: spawnDelay
-      value: 0.25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: maxEnemiesAlive
-      value: 36
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: maxEnemiesSpawned
-      value: 144
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: drawDebugMinSpawnRangeSphere
@@ -1847,15 +1847,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: spawnDelay
-      value: 0.25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: maxEnemiesAlive
-      value: 36
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: maxEnemiesSpawned
-      value: 144
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 4904234254744727577, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2062,15 +2062,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: spawnDelay
-      value: 0.25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: maxEnemiesAlive
-      value: 36
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: maxEnemiesSpawned
-      value: 144
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 4904234254744727577, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2277,15 +2277,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: spawnDelay
-      value: 0.25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: maxEnemiesAlive
-      value: 36
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: maxEnemiesSpawned
-      value: 144
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 4904234254744727577, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2484,15 +2484,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: spawnDelay
-      value: 0.25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: maxEnemiesAlive
-      value: 36
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: maxEnemiesSpawned
-      value: 144
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 4904234254744727577, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3242,15 +3242,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: spawnDelay
-      value: 0.25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: maxEnemiesAlive
-      value: 36
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: maxEnemiesSpawned
-      value: 144
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 4904234254744727577, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3522,15 +3522,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: spawnDelay
-      value: 0.25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: maxEnemiesAlive
-      value: 36
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: maxEnemiesSpawned
-      value: 144
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: drawDebugMinSpawnRangeSphere
@@ -4324,15 +4324,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: spawnDelay
-      value: 0.25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: maxEnemiesAlive
-      value: 36
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: maxEnemiesSpawned
-      value: 144
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 4904234254744727577, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5286,15 +5286,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: spawnDelay
-      value: 0.25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: maxEnemiesAlive
-      value: 36
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 562150370382645360, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: maxEnemiesSpawned
-      value: 144
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 4904234254744727577, guid: 3dc8a3aa1347d9848ac8dfead2fc472a, type: 3}
       propertyPath: m_LocalPosition.x

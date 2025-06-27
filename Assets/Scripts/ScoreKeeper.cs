@@ -5,7 +5,7 @@ using UnityEngine.UIElements;
 public class ScoreKeeper : MonoBehaviour
 {
     private VisualElement doc;
-
+    public Action<int> ScoreUpdated;
     [HideInInspector] public int score = 0;
     
     private void Start()
@@ -28,5 +28,7 @@ public class ScoreKeeper : MonoBehaviour
         var scoreValue = doc.Q<Label>("scoreValue");
         score++;
         scoreValue.text = score.ToString();
+        
+        ScoreUpdated?.Invoke(score);
     }
 }

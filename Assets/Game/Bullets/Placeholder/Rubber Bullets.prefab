@@ -177,7 +177,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 0
-  lifetime: 4
+  lifetime: 9
+  invulnerable: 0
   destroyAfterHit: 0
 --- !u!114 &1483467704144088721
 MonoBehaviour:
