@@ -446,6 +446,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Square
       objectReference: {fileID: 0}
+    - target: {fileID: 3488867908372395258, guid: 9ccaba2c3336f454b8ddcec3ea228194, type: 3}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3488867908372395258, guid: 9ccaba2c3336f454b8ddcec3ea228194, type: 3}
+      propertyPath: m_Size.y
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4545745477208489643, guid: 9ccaba2c3336f454b8ddcec3ea228194, type: 3}
       propertyPath: m_LocalPosition.x
       value: -48.120434
