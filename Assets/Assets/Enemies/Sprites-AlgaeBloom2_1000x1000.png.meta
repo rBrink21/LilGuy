@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: 465325c9349b0234ba3793931d8bbad7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5940866814523179940
+    second: Sprites-AlgaeBloom2_1000x1000_0
+  - first:
+      213: -8942632072442767511
+    second: Sprites-AlgaeBloom2_1000x1000_1
+  - first:
+      213: 8397012702159623238
+    second: Sprites-AlgaeBloom2_1000x1000_2
+  - first:
+      213: -7868995121078626816
+    second: Sprites-AlgaeBloom2_1000x1000_3
+  - first:
+      213: -7624121112700291522
+    second: Sprites-AlgaeBloom2_1000x1000_4
+  - first:
+      213: -8447818605565082770
+    second: Sprites-AlgaeBloom2_1000x1000_5
+  - first:
+      213: -11644114693464402
+    second: Sprites-AlgaeBloom2_1000x1000_6
+  - first:
+      213: -2079932286514763849
+    second: Sprites-AlgaeBloom2_1000x1000_7
+  - first:
+      213: 8857141949765545377
+    second: Sprites-AlgaeBloom2_1000x1000_8
+  - first:
+      213: 4211085349665565586
+    second: Sprites-AlgaeBloom2_1000x1000_9
+  - first:
+      213: -3904411264532775016
+    second: Sprites-AlgaeBloom2_1000x1000_10
+  - first:
+      213: -4018417265353404486
+    second: Sprites-AlgaeBloom2_1000x1000_11
+  - first:
+      213: 3822588613902763013
+    second: Sprites-AlgaeBloom2_1000x1000_12
+  - first:
+      213: -5532377935634913969
+    second: Sprites-AlgaeBloom2_1000x1000_13
+  - first:
+      213: -6553136207102766304
+    second: Sprites-AlgaeBloom2_1000x1000_14
+  - first:
+      213: -7514518151727026019
+    second: Sprites-AlgaeBloom2_1000x1000_15
+  - first:
+      213: -4663364895179154263
+    second: Sprites-AlgaeBloom2_1000x1000_16
+  - first:
+      213: -3105667191449544325
+    second: Sprites-AlgaeBloom2_1000x1000_17
+  - first:
+      213: -4183305403920712098
+    second: Sprites-AlgaeBloom2_1000x1000_18
+  - first:
+      213: 7641492518985761561
+    second: Sprites-AlgaeBloom2_1000x1000_19
+  - first:
+      213: -7423884827108623433
+    second: Sprites-AlgaeBloom2_1000x1000_20
+  - first:
+      213: 4553100573012016537
+    second: Sprites-AlgaeBloom2_1000x1000_21
+  - first:
+      213: -7883041204773264500
+    second: Sprites-AlgaeBloom2_1000x1000_22
+  - first:
+      213: 4443078765744851116
+    second: Sprites-AlgaeBloom2_1000x1000_23
+  - first:
+      213: 482753294292227900
+    second: Sprites-AlgaeBloom2_1000x1000_24
+  - first:
+      213: -6089344042605218744
+    second: Sprites-AlgaeBloom2_1000x1000_25
+  - first:
+      213: 3357450847998239887
+    second: Sprites-AlgaeBloom2_1000x1000_26
+  - first:
+      213: 2080130520505054287
+    second: Sprites-AlgaeBloom2_1000x1000_27
+  - first:
+      213: -661048486637114119
+    second: Sprites-AlgaeBloom2_1000x1000_28
+  - first:
+      213: 5393965540030311625
+    second: Sprites-AlgaeBloom2_1000x1000_29
+  - first:
+      213: -2199197188820292311
+    second: Sprites-AlgaeBloom2_1000x1000_30
+  - first:
+      213: 8228300438305108157
+    second: Sprites-AlgaeBloom2_1000x1000_31
+  - first:
+      213: -5100013546890995837
+    second: Sprites-AlgaeBloom2_1000x1000_32
+  - first:
+      213: 8771888295556857022
+    second: Sprites-AlgaeBloom2_1000x1000_33
+  - first:
+      213: -8678928776013487418
+    second: Sprites-AlgaeBloom2_1000x1000_34
+  - first:
+      213: 5531276970462975902
+    second: Sprites-AlgaeBloom2_1000x1000_35
+  - first:
+      213: -6547201835491704166
+    second: Sprites-AlgaeBloom2_1000x1000_36
+  - first:
+      213: 2490802908135650009
+    second: Sprites-AlgaeBloom2_1000x1000_37
+  - first:
+      213: -3446714936433201647
+    second: Sprites-AlgaeBloom2_1000x1000_38
+  - first:
+      213: -3517914565269893896
+    second: Sprites-AlgaeBloom2_1000x1000_39
+  - first:
+      213: 816816714280675553
+    second: Sprites-AlgaeBloom2_1000x1000_40
+  - first:
+      213: 903404801071283043
+    second: Sprites-AlgaeBloom2_1000x1000_41
+  - first:
+      213: 2624420500212335590
+    second: Sprites-AlgaeBloom2_1000x1000_42
+  - first:
+      213: -8917268533334210380
+    second: Sprites-AlgaeBloom2_1000x1000_43
+  - first:
+      213: 6759522214751043810
+    second: Sprites-AlgaeBloom2_1000x1000_44
+  - first:
+      213: 3926158934815913356
+    second: Sprites-AlgaeBloom2_1000x1000_45
+  - first:
+      213: -8074161601274849710
+    second: Sprites-AlgaeBloom2_1000x1000_46
+  - first:
+      213: -3281813986236758638
+    second: Sprites-AlgaeBloom2_1000x1000_47
+  - first:
+      213: 7951689188581733611
+    second: Sprites-AlgaeBloom2_1000x1000_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a38f8944e2327250800000000000000
+      internalID: 5940866814523179940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967980d928365e380800000000000000
+      internalID: -8942632072442767511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_2
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644daa6309e288470800000000000000
+      internalID: 8397012702159623238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-AlgaeBloom2_1000x1000_3
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00693dc01a6bbc290800000000000000
+      internalID: -7868995121078626816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9407b18ffa4e26b4fa9b9cc75b419aff
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sprites-AlgaeBloom2_1000x1000_0: 5940866814523179940
+      Sprites-AlgaeBloom2_1000x1000_1: -8942632072442767511
+      Sprites-AlgaeBloom2_1000x1000_2: 8397012702159623238
+      Sprites-AlgaeBloom2_1000x1000_3: -7868995121078626816
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

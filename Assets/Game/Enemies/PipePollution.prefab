@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4776581556886836416}
   - component: {fileID: -7311164565526930028}
   - component: {fileID: -2791610433201619413}
+  - component: {fileID: -601749400087157805}
   m_Layer: 9
   m_Name: PipePollution
   m_TagString: Enemy
@@ -206,3 +207,22 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.08
+--- !u!114 &-601749400087157805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8910471784273811227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e9f8a1204e5c504886154cb77315787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemiesToSpawn:
+  - {fileID: 6316453000183587225, guid: 150863c146509ed40aadaa8e1b335bdb, type: 3}
+  spawnDelay: 30
+  maxEnemiesAlive: 1
+  maxEnemiesSpawned: 5
+  minimumSpawnRange: 100
+  drawDebugMinSpawnRangeSphere: 0
