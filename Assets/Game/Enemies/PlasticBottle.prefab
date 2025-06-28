@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4776581556886836416}
   - component: {fileID: -7311164565526930028}
   - component: {fileID: -2791610433201619413}
+  - component: {fileID: 8261490015483075125}
   m_Layer: 9
   m_Name: PlasticBottle
   m_TagString: Enemy
@@ -169,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc0a1fb22b91f25429558262a172ecdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 4
+  maxHealth: 20
 --- !u!58 &-2791610433201619413
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -206,3 +207,17 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0.054205775, y: -0.0024638176}
   m_Radius: 1.1468703
+--- !u!114 &8261490015483075125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8910471784273811227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccb16acc85324b9b97f5b597feb479b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashMaterial: {fileID: 2100000, guid: e7ea41e022a5a35489d0cf3621287c7c, type: 2}
+  flashDuration: 0.1

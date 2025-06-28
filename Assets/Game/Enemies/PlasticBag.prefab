@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2289689947510458824}
   - component: {fileID: 1827618741440475825}
   - component: {fileID: 5182889186887121405}
+  - component: {fileID: -1500561641481365963}
   m_Layer: 9
   m_Name: PlasticBag
   m_TagString: Enemy
@@ -232,3 +233,17 @@ MonoBehaviour:
   maxEnemiesSpawned: 36
   minimumSpawnRange: 45
   drawDebugMinSpawnRangeSphere: 0
+--- !u!114 &-1500561641481365963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2915378224031396638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccb16acc85324b9b97f5b597feb479b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashMaterial: {fileID: 2100000, guid: e7ea41e022a5a35489d0cf3621287c7c, type: 2}
+  flashDuration: 0.1
