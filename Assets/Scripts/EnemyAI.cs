@@ -10,7 +10,7 @@ public class EnemyAI : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Transform target;
-    private BulletShooter bs;
+    private BulletShooter[] bs;
     private bool hasBulletShooter;
     private Health health;
 
@@ -34,13 +34,17 @@ public class EnemyAI : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 0;
         target = GameObject.FindGameObjectWithTag("Player").transform;
-        bs = GetComponent<BulletShooter>();
+        bs = GetComponentsInChildren<BulletShooter>();
         health = GetComponent<Health>();
         hasBulletShooter = bs != null;
         if (hasBulletShooter)
         {
-            bs.SetTarget(GameObject.FindGameObjectWithTag("Player").transform);
-            bs.friendlyShooter = false;
+            foreach (var shooter in bs)
+            {
+                shooter.SetTarget(GameObject.FindGameObjectWithTag("Player").transform);
+                shooter.friendlyShooter = false;
+            }
+            
         }
 
         if (health != null)
@@ -49,16 +53,25 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
+    private void UpdateTarget(Transform trans)
+    {
+        foreach (var shooter in bs)
+        {
+            shooter.SetTarget(trans);
+            shooter.friendlyShooter = false;
+        }
+    }
+    
     private void FixedUpdate()
     {
         if (GetDistanceToTarget() < aggroRange)
         {
-            bs.SetTarget(target);
+            UpdateTarget(target);
             FloatyMovement();
         }
         else
         {
-            bs.SetTarget(null);
+            UpdateTarget(null);
         }
         ClampMaxSpeed();
     }
