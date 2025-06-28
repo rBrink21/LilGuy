@@ -13,12 +13,12 @@ public class MainMenu : MonoBehaviour
     private void Start()
     {
         var doc = GetComponent<UIDocument>();
-        var startButton = doc.rootVisualElement.Q<VisualElement>("startButton");
+        var startButton = doc.rootVisualElement.Q<Label>("startButton");
         startButton.AddManipulator(new Clickable(() =>
         {
             SceneManager.LoadScene(GAME_SCENE_INDEX);
         }));
-        var exitButton = doc.rootVisualElement.Q<VisualElement>("exitbutton");
+        var exitButton = doc.rootVisualElement.Q<Label>("exitbutton");
         exitButton.AddManipulator(new Clickable(() =>
         {
             Application.Quit(0);

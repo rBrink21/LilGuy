@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pipes-diagonal_vertical_smaller_0: 3187214420696668559
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -22,3 +22,15 @@
     background-color: rgba(255, 255, 255, 0.38);
     background-size: 110% 110%;
 }
+
+.text {
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/Lacquer-Regular.ttf?fileID=12800000&guid=b8df2128398ea094faecc8c2c5137b1f&type=3#Lacquer-Regular");
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding-bottom: 24px;
+}
+
+.text:hover {
+    font-size: 55px;
+    color: rgb(184, 221, 255);
+}
