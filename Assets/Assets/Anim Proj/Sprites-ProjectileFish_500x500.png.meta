@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sprites-ProjectileFish_500x500_0: 960805662232990711
+      Sprites-ProjectileFish_500x500_1: -773719733824405320
+      Sprites-ProjectileFish_500x500_10: 2284596177080901215
+      Sprites-ProjectileFish_500x500_11: -4921610143338698162
+      Sprites-ProjectileFish_500x500_2: 2872270600469628225
+      Sprites-ProjectileFish_500x500_3: -8010347815269450130
+      Sprites-ProjectileFish_500x500_4: 6477247447422060226
+      Sprites-ProjectileFish_500x500_5: 330505904326026790
+      Sprites-ProjectileFish_500x500_6: -2339891450789783207
+      Sprites-ProjectileFish_500x500_7: 331427388412433263
+      Sprites-ProjectileFish_500x500_8: 5840325423270502111
+      Sprites-ProjectileFish_500x500_9: -5378482948524576473
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

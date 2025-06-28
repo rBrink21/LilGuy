@@ -4,8 +4,13 @@ using UnityEngine.SceneManagement;
 public class PipeTeleporter : MonoBehaviour
 {
     [SerializeField] private int sceneToLoad;
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        SceneManager.LoadScene(sceneToLoad);
+        print("hit");
+        if (other.CompareTag("Player"))
+        {
+            SceneManager.LoadScene(sceneToLoad);
+
+        }
     }
 }

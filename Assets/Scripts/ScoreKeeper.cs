@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.UIElements;
-
+using UnityEngine.SceneManagement;
 public class ScoreKeeper : MonoBehaviour
 {
     private VisualElement doc;
@@ -30,5 +30,13 @@ public class ScoreKeeper : MonoBehaviour
         scoreValue.text = score.ToString();
         
         ScoreUpdated?.Invoke(score);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Delete))
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 }

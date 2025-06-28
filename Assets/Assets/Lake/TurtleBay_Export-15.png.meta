@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TurtleBay_Export-15_0: 490956999851724343
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

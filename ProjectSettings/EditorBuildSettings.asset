@@ -12,11 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/IntroCutScene.unity
     guid: 8390fe237f7781d4590222e6f45c1b24
   - enabled: 1
-    path: Assets/Scenes/WilfTestLevel.unity
-    guid: f258694ef4300b44e9d94729b0cef4a9
+    path: Assets/Scenes/Lake.unity
+    guid: 290a11d1e89c98b43b9e12b5896f8dae
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/Factory.unity
+    guid: 531524900d5d6734892445074de1d55e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

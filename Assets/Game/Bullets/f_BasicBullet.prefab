@@ -179,6 +179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   lifetime: 20
+  invulnerable: 0
   destroyAfterHit: 1
 --- !u!114 &1483467704144088721
 MonoBehaviour:
@@ -192,7 +193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc0a1fb22b91f25429558262a172ecdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1
+  maxHealth: 3
 --- !u!82 &1801659952059253700
 AudioSource:
   m_ObjectHideFlags: 0

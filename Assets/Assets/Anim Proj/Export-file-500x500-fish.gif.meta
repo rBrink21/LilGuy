@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Export-file-500x500-fish_0: -51612005353921158
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

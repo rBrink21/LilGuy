@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Export-file-500x500-swirl_0: -2945804171616807707
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

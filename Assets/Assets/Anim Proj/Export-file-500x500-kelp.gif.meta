@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Export-file-500x500-kelp_0: 8201283755701562441
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
