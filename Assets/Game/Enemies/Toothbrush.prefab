@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: -7311164565526930028}
   - component: {fileID: -2791610433201619413}
   - component: {fileID: -2267365894669745122}
+  - component: {fileID: -4774905416357313168}
   m_Layer: 9
   m_Name: Toothbrush
   m_TagString: Enemy
@@ -304,3 +305,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-4774905416357313168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8910471784273811227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccb16acc85324b9b97f5b597feb479b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashMaterial: {fileID: 2100000, guid: e7ea41e022a5a35489d0cf3621287c7c, type: 2}
+  flashDuration: 0.1
