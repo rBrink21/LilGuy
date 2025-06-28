@@ -11,8 +11,13 @@ public class ScoreKeeper : MonoBehaviour
     private void Start()
     {
         doc = GetComponent<UIDocument>().rootVisualElement;
-        
 
+
+        // SubscribeToSpawners();
+    }
+
+    private void SubscribeToSpawners()
+    {
         var enemySpawners = FindObjectsByType<EnemySpawner>(FindObjectsSortMode.None);
         foreach (EnemySpawner enemySpawner in enemySpawners)
         {
@@ -23,7 +28,7 @@ public class ScoreKeeper : MonoBehaviour
         }
     }
 
-    private void UpdateScore()
+    public void UpdateScore()
     {
         var scoreValue = doc.Q<Label>("scoreValue");
         score++;

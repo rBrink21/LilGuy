@@ -156,6 +156,7 @@ MonoBehaviour:
   shouldAvoidAllies: 1
   avoidAlliesRange: 10
   avoidAlliesForce: 2
+  deathPickup: {fileID: 2906499427992400957, guid: 6ad8d3f180597dc4aa26bec474f1c667, type: 3}
 --- !u!114 &-7311164565526930028
 MonoBehaviour:
   m_ObjectHideFlags: 0

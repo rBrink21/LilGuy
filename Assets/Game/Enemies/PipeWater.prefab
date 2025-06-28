@@ -53,6 +53,9 @@ MonoBehaviour:
   timeBetweenShots: 0.05
   bulletSpeed: 20
   friendlyShooter: 0
+  shootAtFixedAngle: 0
+  fixedAngle: 0
+  debugFixedAngleLineLength: 10
 --- !u!212 &6162130001017592421
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -153,6 +156,7 @@ MonoBehaviour:
   shouldAvoidAllies: 1
   avoidAlliesRange: 10
   avoidAlliesForce: 1
+  deathPickup: {fileID: 0}
 --- !u!114 &-7311164565526930028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,7 +164,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8910471784273811227}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc0a1fb22b91f25429558262a172ecdf, type: 3}
   m_Name: 

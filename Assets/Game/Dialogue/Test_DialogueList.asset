@@ -19,3 +19,6 @@ MonoBehaviour:
   - index: 1
     text: Helllo im line 2
     shown: 0
+  - index: 2
+    text: HELLO!!!!
+    shown: 0

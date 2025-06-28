@@ -92,7 +92,7 @@ public class EnemySpawner : MonoBehaviour
         Health enemyHealth = enemyInstance.GetComponent<Health>();
         if (enemyHealth != null)
         {
-            enemyCreated.Invoke(enemyHealth);
+            enemyCreated?.Invoke(enemyHealth);
             enemyHealth.hasDied += () =>  currentAlive--;
         }
     }

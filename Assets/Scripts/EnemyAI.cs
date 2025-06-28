@@ -27,7 +27,8 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] private float avoidAlliesRange = 2f;
     [SerializeField] private float avoidAlliesForce = 0.4f;
     private GameObject closestAlly;
-    
+
+    [SerializeField] private GameObject deathPickup;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -96,6 +97,8 @@ public class EnemyAI : MonoBehaviour
 
     private void HandleDeath()
     {
+        var score = Instantiate(deathPickup);
+        score.transform.position = transform.position;
         Destroy(gameObject);
     }
 
