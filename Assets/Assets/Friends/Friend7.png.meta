@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 0b8c01c9042abf14897ae2818bdd7dc4
+guid: 08b20a70b6836a742b147cc6fbc2c0a1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3756582650899783121
-    second: Friend1 1_0
+      213: -6487274971993041117
+    second: Friend7_0
+  - first:
+      213: -2178053873662184410
+    second: Friend7_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Friend1 1_0
+      name: Friend7_0
       rect:
         serializedVersion: 2
-        x: 71
-        y: 29
-        width: 373
-        height: 445
+        x: 78
+        y: 51
+        width: 321
+        height: 396
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ddd64c8400122430800000000000000
-      internalID: 3756582650899783121
+      spriteID: 3279216b8c198f5a0800000000000000
+      internalID: -6487274971993041117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Friend7_1
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 35
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624b3beaa8ff5c1e0800000000000000
+      internalID: -2178053873662184410
       vertices: []
       indices: 
       edges: []
@@ -134,8 +159,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Friend1 1_0: 3756582650899783121
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
