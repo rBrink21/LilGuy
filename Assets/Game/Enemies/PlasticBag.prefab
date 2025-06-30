@@ -228,7 +228,7 @@ MonoBehaviour:
   - {fileID: 8910471784273811227, guid: 8e6f84162e65ed74f8b14606e253186a, type: 3}
   - {fileID: 8910471784273811227, guid: 22c85cd2737fa2e43b21d9080e18866b, type: 3}
   - {fileID: 8910471784273811227, guid: e3349b96c68a3654e993d986c5df414b, type: 3}
-  spawnDelay: 1.5
+  spawnDelay: 1.8
   maxEnemiesAlive: 9
   maxEnemiesSpawned: 36
   minimumSpawnRange: 45
