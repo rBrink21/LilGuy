@@ -1,43 +1,109 @@
 fileFormatVersion: 2
-guid: 6a31c9a81bd44884c98e7bded1043f10
+guid: 27c682da47f345e4db25cd5dedd2f518
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 960805662232990711
-    second: Sprites-ProjectileFish_500x500_0
+      213: 3177349383891212366
+    second: Sprites-ProjectileChunk1_500x500_0
   - first:
-      213: -773719733824405320
-    second: Sprites-ProjectileFish_500x500_1
+      213: 2801868252278941770
+    second: Sprites-ProjectileChunk1_500x500_1
   - first:
-      213: 2872270600469628225
-    second: Sprites-ProjectileFish_500x500_2
+      213: -952280974103664071
+    second: Sprites-ProjectileChunk1_500x500_2
   - first:
-      213: -8010347815269450130
-    second: Sprites-ProjectileFish_500x500_3
+      213: 1723857972281322606
+    second: Sprites-ProjectileChunk1_500x500_3
   - first:
-      213: 6477247447422060226
-    second: Sprites-ProjectileFish_500x500_4
+      213: 7495630168354550063
+    second: Sprites-ProjectileChunk1_500x500_4
   - first:
-      213: 330505904326026790
-    second: Sprites-ProjectileFish_500x500_5
+      213: 5378359425820054498
+    second: Sprites-ProjectileChunk1_500x500_5
   - first:
-      213: -2339891450789783207
-    second: Sprites-ProjectileFish_500x500_6
+      213: -1223666559713493165
+    second: Sprites-ProjectileChunk1_500x500_6
   - first:
-      213: 331427388412433263
-    second: Sprites-ProjectileFish_500x500_7
+      213: 8259388596591070153
+    second: Sprites-ProjectileChunk1_500x500_7
   - first:
-      213: 5840325423270502111
-    second: Sprites-ProjectileFish_500x500_8
+      213: -3917213730041747620
+    second: Sprites-ProjectileChunk1_500x500_8
   - first:
-      213: -5378482948524576473
-    second: Sprites-ProjectileFish_500x500_9
+      213: -1270081217742011336
+    second: Sprites-ProjectileChunk1_500x500_9
   - first:
-      213: 2284596177080901215
-    second: Sprites-ProjectileFish_500x500_10
+      213: 658135373314236461
+    second: Sprites-ProjectileChunk1_500x500_10
   - first:
-      213: -4921610143338698162
-    second: Sprites-ProjectileFish_500x500_11
+      213: 4250472127666124523
+    second: Sprites-ProjectileChunk1_500x500_11
+  - first:
+      213: -1471059257756846266
+    second: Sprites-ProjectileChunk1_500x500_12
+  - first:
+      213: -6055866032424063725
+    second: Sprites-ProjectileChunk1_500x500_13
+  - first:
+      213: 532504193449076781
+    second: Sprites-ProjectileChunk1_500x500_14
+  - first:
+      213: -4784214617402971365
+    second: Sprites-ProjectileChunk1_500x500_15
+  - first:
+      213: -6400907357843089928
+    second: Sprites-ProjectileChunk1_500x500_16
+  - first:
+      213: 6315051402715383100
+    second: Sprites-ProjectileChunk1_500x500_17
+  - first:
+      213: 3119940339354761502
+    second: Sprites-ProjectileChunk1_500x500_18
+  - first:
+      213: -7553420915502513971
+    second: Sprites-ProjectileChunk1_500x500_19
+  - first:
+      213: -498128780608283499
+    second: Sprites-ProjectileChunk1_500x500_20
+  - first:
+      213: 4631436367770169471
+    second: Sprites-ProjectileChunk1_500x500_21
+  - first:
+      213: -8877332197111267764
+    second: Sprites-ProjectileChunk1_500x500_22
+  - first:
+      213: 6593580361486355114
+    second: Sprites-ProjectileChunk1_500x500_23
+  - first:
+      213: 7440288454475811055
+    second: Sprites-ProjectileChunk1_500x500_24
+  - first:
+      213: -3345156598576481056
+    second: Sprites-ProjectileChunk1_500x500_25
+  - first:
+      213: 2276688977276473905
+    second: Sprites-ProjectileChunk1_500x500_26
+  - first:
+      213: -6542406858516778153
+    second: Sprites-ProjectileChunk1_500x500_27
+  - first:
+      213: -8496842112283762070
+    second: Sprites-ProjectileChunk1_500x500_28
+  - first:
+      213: -2341661953868181918
+    second: Sprites-ProjectileChunk1_500x500_29
+  - first:
+      213: 1264155279195206442
+    second: Sprites-ProjectileChunk1_500x500_30
+  - first:
+      213: -7964229270657255597
+    second: Sprites-ProjectileChunk1_500x500_31
+  - first:
+      213: -3915831929985979153
+    second: Sprites-ProjectileChunk1_500x500_32
+  - first:
+      213: -3912473946894149270
+    second: Sprites-ProjectileChunk1_500x500_33
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -133,7 +199,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprites-ProjectileFish_500x500_0
+      name: Sprites-ProjectileChunk1_500x500_0
       rect:
         serializedVersion: 2
         x: 0
@@ -146,16 +212,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7f3d493c8a7755d00800000000000000
-      internalID: 960805662232990711
+      spriteID: 12003a81a8620b84eb5e903a7a918860
+      internalID: -49254234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites-ProjectileFish_500x500_1
+      name: Sprites-ProjectileChunk1_500x500_1
       rect:
         serializedVersion: 2
         x: 500
@@ -168,16 +234,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8b0cfad50023345f0800000000000000
-      internalID: -773719733824405320
+      spriteID: 246ee8e5d44b5f74a9a58e8c0be903d8
+      internalID: 610635341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites-ProjectileFish_500x500_2
+      name: Sprites-ProjectileChunk1_500x500_2
       rect:
         serializedVersion: 2
         x: 1000
@@ -190,10 +256,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1454ac7a4ea5cd720800000000000000
-      internalID: 2872270600469628225
+      spriteID: d2d64153800a29f45876a38b7db406ea
+      internalID: 137326591
       vertices: []
       indices: 
       edges: []
@@ -202,7 +268,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6997a07f15297da41a143bbf77c5a8a4
+    spriteID: 1e8590fc613b01f4e921d2d0e47d0346
     internalID: 0
     vertices: []
     indices: 
@@ -212,9 +278,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Sprites-ProjectileFish_500x500_0: 960805662232990711
-      Sprites-ProjectileFish_500x500_1: -773719733824405320
-      Sprites-ProjectileFish_500x500_2: 2872270600469628225
+      Sprites-ProjectileChunk1_500x500_0: -49254234
+      Sprites-ProjectileChunk1_500x500_1: 610635341
+      Sprites-ProjectileChunk1_500x500_2: 137326591
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
