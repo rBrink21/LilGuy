@@ -26,7 +26,6 @@ public class FlashEffect : MonoBehaviour
 
     public void Activate()
     {
-        print("activated");
         flashTimeElapsed = 0;
         sr.material = flashMaterial;
     }

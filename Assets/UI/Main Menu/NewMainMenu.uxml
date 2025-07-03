@@ -6,9 +6,9 @@
             <engine:VisualElement style="flex-grow: 1;">
                 <engine:VisualElement style="flex-grow: 1; flex-basis: 65%;" />
                 <engine:VisualElement style="flex-grow: 1; flex-basis: 60%; padding-left: 50px;">
-                    <engine:Label text="Start" name="startButton" class="text" />
-                    <engine:Label text="Options&#10;" class="text" />
-                    <engine:Label text="Exit&#10;" name="exitbutton" class="text" />
+                    <engine:Label text="start" name="startButton" class="text" />
+                    <engine:Label text="options&#10;" class="text" />
+                    <engine:Label text="exit&#10;" name="exitbutton" class="text" />
                 </engine:VisualElement>
                 <engine:VisualElement name="VisualElement" style="flex-grow: 1; flex-basis: 6%;" />
             </engine:VisualElement>

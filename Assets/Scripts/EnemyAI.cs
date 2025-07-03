@@ -110,8 +110,12 @@ public class EnemyAI : MonoBehaviour
 
     private void HandleDeath()
     {
-        var score = Instantiate(deathPickup);
-        score.transform.position = transform.position;
+        if (deathPickup != null)
+        {
+            var score = Instantiate(deathPickup);
+            score.transform.position = transform.position;
+        }
+       
         Destroy(gameObject);
     }
 
