@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1801659952059253700}
   - component: {fileID: -8696719145267146596}
   m_Layer: 6
-  m_Name: WaterPipeShortLife
+  m_Name: WaterPipeLongLife
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 1899948040821597692, guid: 9615e1c83210de447bec934d3661fb20, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.43137255}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.14901961}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -288,6 +288,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 0
-  lifetime: 3
+  lifetime: 19
   invulnerable: 0
   destroyAfterHit: 0

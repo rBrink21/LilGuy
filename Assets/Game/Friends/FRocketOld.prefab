@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3033132693436971712}
   - component: {fileID: 5450588845776715161}
   m_Layer: 8
-  m_Name: FShooting
+  m_Name: FRocketOld
   m_TagString: Friend
   m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.79, y: 0.25, z: -0.07356333}
-  m_LocalScale: {x: 8, y: 8, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -81,8 +81,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0, g: 1, b: 0.9828806, a: 1}
+  m_Sprite: {fileID: 3756582650899783121, guid: 0b8c01c9042abf14897ae2818bdd7dc4, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -131,9 +131,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02e495a2670b7ea49a1ccb949b30525b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  springDistance: 8
-  springDampening: 0.305
-  targetingDistance: 24
+  springDistance: 3
+  springDampening: 0.459
+  targetingDistance: 8.23
   timeBetweenTargetUpdates: 0.5
 --- !u!58 &7522883528269582880
 CircleCollider2D:
@@ -169,8 +169,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0021169484, y: 0}
-  m_Radius: 0.1060985
+  m_Offset: {x: -0.0021169782, y: -0.06615114}
+  m_Radius: 0.8706821
 --- !u!231 &3033132693436971712
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -204,7 +204,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4092b9a64db9d364b8d5995fb520cb66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 8080129663335587918, guid: aefffb5f74c0785429b2ebb31a5f65b5, type: 3}
-  timeBetweenShots: 0.3
-  bulletSpeed: 12
+  bulletPrefab: {fileID: 8080129663335587918, guid: dfd2f38aa519a974a9e535e82df615e9, type: 3}
+  timeBetweenShots: 1.3
+  bulletSpeed: 15
   friendlyShooter: 0
+  shootAtFixedAngle: 0
+  fixedAngle: 0
+  debugFixedAngleLineLength: 10

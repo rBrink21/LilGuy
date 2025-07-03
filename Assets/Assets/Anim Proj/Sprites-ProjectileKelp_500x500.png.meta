@@ -1,43 +1,16 @@
 fileFormatVersion: 2
-guid: 6a31c9a81bd44884c98e7bded1043f10
+guid: 6c042a0d7a2134a459369777983f0dcc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 960805662232990711
-    second: Sprites-ProjectileFish_500x500_0
+      213: -8502358475940524142
+    second: Sprites-ProjectileKelp_500x500_0
   - first:
-      213: -773719733824405320
-    second: Sprites-ProjectileFish_500x500_1
+      213: 2052773655157916684
+    second: Sprites-ProjectileKelp_500x500_1
   - first:
-      213: 2872270600469628225
-    second: Sprites-ProjectileFish_500x500_2
-  - first:
-      213: -8010347815269450130
-    second: Sprites-ProjectileFish_500x500_3
-  - first:
-      213: 6477247447422060226
-    second: Sprites-ProjectileFish_500x500_4
-  - first:
-      213: 330505904326026790
-    second: Sprites-ProjectileFish_500x500_5
-  - first:
-      213: -2339891450789783207
-    second: Sprites-ProjectileFish_500x500_6
-  - first:
-      213: 331427388412433263
-    second: Sprites-ProjectileFish_500x500_7
-  - first:
-      213: 5840325423270502111
-    second: Sprites-ProjectileFish_500x500_8
-  - first:
-      213: -5378482948524576473
-    second: Sprites-ProjectileFish_500x500_9
-  - first:
-      213: 2284596177080901215
-    second: Sprites-ProjectileFish_500x500_10
-  - first:
-      213: -4921610143338698162
-    second: Sprites-ProjectileFish_500x500_11
+      213: -3194594449898604294
+    second: Sprites-ProjectileKelp_500x500_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -133,7 +106,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprites-ProjectileFish_500x500_0
+      name: Sprites-ProjectileKelp_500x500_0
       rect:
         serializedVersion: 2
         x: 0
@@ -146,16 +119,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7f3d493c8a7755d00800000000000000
-      internalID: 960805662232990711
+      spriteID: 8c30046fb78d7cb4abaf13bd70a4708b
+      internalID: 1830705454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites-ProjectileFish_500x500_1
+      name: Sprites-ProjectileKelp_500x500_1
       rect:
         serializedVersion: 2
         x: 500
@@ -168,16 +141,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8b0cfad50023345f0800000000000000
-      internalID: -773719733824405320
+      spriteID: d3b01eb0c0b7a474eaeec0459ae3ab4f
+      internalID: -1543067238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites-ProjectileFish_500x500_2
+      name: Sprites-ProjectileKelp_500x500_2
       rect:
         serializedVersion: 2
         x: 1000
@@ -190,10 +163,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1454ac7a4ea5cd720800000000000000
-      internalID: 2872270600469628225
+      spriteID: 25152277bda6f9e409b7920fa1168ab3
+      internalID: -1737044781
       vertices: []
       indices: 
       edges: []
@@ -202,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6997a07f15297da41a143bbf77c5a8a4
+    spriteID: a2f0696de32f23648a53a23b9c2cc80a
     internalID: 0
     vertices: []
     indices: 
@@ -212,9 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Sprites-ProjectileFish_500x500_0: 960805662232990711
-      Sprites-ProjectileFish_500x500_1: -773719733824405320
-      Sprites-ProjectileFish_500x500_2: 2872270600469628225
+      Sprites-ProjectileKelp_500x500_0: 1830705454
+      Sprites-ProjectileKelp_500x500_1: -1543067238
+      Sprites-ProjectileKelp_500x500_2: -1737044781
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

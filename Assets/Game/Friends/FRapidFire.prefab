@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3033132693436971712}
   - component: {fileID: 5450588845776715161}
   m_Layer: 8
-  m_Name: FSlapLicker
+  m_Name: FRapidFire
   m_TagString: Friend
   m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.79, y: 0.25, z: -0.07356333}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5729029315865182688, guid: b4eee8a7bdcc8e74388db0a4e5af32fd, type: 3}
+  m_Sprite: {fileID: -497003950707772765, guid: 57740e63205b25649b44c5ba84f00139, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -131,9 +131,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02e495a2670b7ea49a1ccb949b30525b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  springDistance: 1.8
-  springDampening: 0.278
-  targetingDistance: 8.23
+  springDistance: 4
+  springDampening: 0.305
+  targetingDistance: 24
   timeBetweenTargetUpdates: 0.5
 --- !u!58 &7522883528269582880
 CircleCollider2D:
@@ -169,8 +169,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0021169484, y: 0}
-  m_Radius: 0.1060985
+  m_Offset: {x: -0.0021169186, y: -0.9168854}
+  m_Radius: 1.1074371
 --- !u!231 &3033132693436971712
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -189,7 +189,7 @@ SpringJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 2.1601157
+  m_Distance: 2.5603547
   m_DampingRatio: 0
   m_Frequency: 1
 --- !u!114 &5450588845776715161
@@ -204,9 +204,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4092b9a64db9d364b8d5995fb520cb66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 9212754429173673561, guid: 7edd11c4a7da119448e7f5442bf18b7b, type: 3}
-  timeBetweenShots: 1.5
-  bulletSpeed: 8
+  bulletPrefab: {fileID: 4832966746857086919, guid: da6ed5442902550408a15723b849fd92, type: 3}
+  timeBetweenShots: 0.25
+  bulletSpeed: 12
   friendlyShooter: 0
   shootAtFixedAngle: 0
   fixedAngle: 0
