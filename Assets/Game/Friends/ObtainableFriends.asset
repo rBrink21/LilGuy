@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acc618fc7ee8437d9344e09db5acd7aa, type: 3}
+  m_Name: ObtainableFriends
+  m_EditorClassIdentifier: 
+  obtainableFriends:
+  - friendPrefab: {fileID: 213581217727361914, guid: 4118eeb023cbb604c9cd9c7021b3620d, type: 3}
+    displayName: Bomber
+    description: Shoots big bullets that explode!
+  - friendPrefab: {fileID: 1008582866633158017, guid: 9d3a2f791b7e10243b7d0d30afac5205, type: 3}
+    displayName: Rapid Fire Friend
+    description: Shoots many bullets at a high rate of fire.
+  - friendPrefab: {fileID: 1008582866633158017, guid: 3c369c132acd86c4aa83544ba1004778, type: 3}
+    displayName: Zappy Sniper
+    description: Shoots high powered bullets at high speed!

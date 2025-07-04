@@ -4,3 +4,35 @@
     -unity-text-align: middle-center;
     -unity-font-definition: url("project://database/Assets/UI/Fonts/Oxanium-Medium.ttf?fileID=12800000&guid=48dc5dfd82bbf364d89ffc08ac001008&type=3#Oxanium-Medium");
 }
+
+.cardContainer{
+    flex: 1;
+    background-color: rgba(1,1,1,0.2);
+    width: 100%;
+    justify-content: center;
+    align-self: center;
+    flex-direction: row;
+}
+
+.card{
+    background-color: black;
+    width: 20%;
+    height: 100%;
+    font-size: 25px;
+    color: white;
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/Oxanium-Medium.ttf?fileID=12800000&guid=48dc5dfd82bbf364d89ffc08ac001008&type=3#Oxanium-Medium");
+    margin-right: 4%;
+}
+
+.sprite{
+    height: 250px;
+    width: 250px;
+}
+.card Label{
+    width: 100px;
+    white-space: normal;
+}
+.description{
+    font-size: 10px;
+    white-space: normal;
+}

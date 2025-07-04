@@ -39,6 +39,7 @@ public class FriendAI : MonoBehaviour
         bs = GetComponent<BulletShooter>();
         spring.distance = springDistance;
         spring.dampingRatio = springDampening;
+        spring.connectedBody = player.GetComponent<Rigidbody2D>();
         
         if (spring.attachedRigidbody == null)
         {

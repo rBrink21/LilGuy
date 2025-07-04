@@ -5,5 +5,12 @@
     xmlns:editor="UnityEditor.UIElements"
     xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd"
 >
-    
+    <Style src="project://database/Assets/UI/style.uss?fileID=7433441132597879392&amp;guid=386e96d018dc0ff4c8525314f2314bfb&amp;type=3#style" />
+
+    <engine:VisualElement style="flex-grow: 1">
+        <engine:VisualElement style="height: 20%"/>
+        <engine:VisualElement class="cardContainer" name="cardContainer">
+        </engine:VisualElement>
+        <engine:VisualElement style="height: 20%"/>
+    </engine:VisualElement>
 </engine:UXML>
