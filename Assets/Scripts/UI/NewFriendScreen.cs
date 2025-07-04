@@ -25,7 +25,6 @@ namespace UI
         {
             Time.timeScale = 0;
             doc.visualTreeAsset = newFriendScreen;
-
             var container = doc.rootVisualElement.Q<VisualElement>("cardContainer");
             foreach (var friend in friends)
             {
@@ -36,6 +35,8 @@ namespace UI
                 cardElement.FriendSelected += HandleFriendSelected;
             }
 
+            doc.rootVisualElement.Q("screen").RemoveFromClassList("notVisible");
+            doc.rootVisualElement.Q("screen").AddToClassList("visible");
 
         }
 
