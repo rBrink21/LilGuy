@@ -2,7 +2,7 @@
     <Style src="project://database/Assets/UI/style.uss?fileID=7433441132597879392&amp;guid=386e96d018dc0ff4c8525314f2314bfb&amp;type=3#style" />
     <FriendSelectionCard class="card">
         <engine:VisualElement class="sprite" name="sprite" />
-        <engine:VisualElement name="stats">
+        <engine:VisualElement class="stats">
             <engine:Label name="friendName" text="Placeholder Name" />
             <engine:Label class="description" name="friendDescription" text="Description!" />
         </engine:VisualElement>

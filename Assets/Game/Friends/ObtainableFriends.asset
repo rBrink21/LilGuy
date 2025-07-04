@@ -22,3 +22,12 @@ MonoBehaviour:
   - friendPrefab: {fileID: 1008582866633158017, guid: 3c369c132acd86c4aa83544ba1004778, type: 3}
     displayName: Zappy Sniper
     description: Shoots high powered bullets at high speed!
+  - friendPrefab: {fileID: 1008582866633158017, guid: 6d61f90e1ee98734c94b6268ed3d3d0d, type: 3}
+    displayName: Shrimpler
+    description: Big shrimp that shrimps a lot of bullets
+  - friendPrefab: {fileID: 1008582866633158017, guid: cedc45b8dd55759488b9a9c51c2d8215, type: 3}
+    displayName: School Teacher
+    description: Has a school of fish
+  - friendPrefab: {fileID: 7689587095033230014, guid: 280417a6b025a364cb958f7094804506, type: 3}
+    displayName: Shotgun Shellfish
+    description: ShotGUN!!!!!

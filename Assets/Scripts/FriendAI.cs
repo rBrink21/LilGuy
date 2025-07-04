@@ -27,7 +27,12 @@ public class FriendAI : MonoBehaviour
     [SerializeField] private float timeBetweenTargetUpdates = 0.5f;
     private float timeSinceLastTargetUpdate = Mathf.Infinity;
     
-    
+    [Header("Friend Avoidance")] 
+    [Tooltip("Toggles whether this enemy will try to maintain some range from the nearest ally. (Green)")][SerializeField]
+    private bool shouldAvoidAllies = true;
+    [SerializeField] private float avoidAlliesRange = 2f;
+    [SerializeField] private float avoidAlliesForce = 0.4f;
+    private GameObject closestAlly;
     
     private void Start()
     {
@@ -37,17 +42,15 @@ public class FriendAI : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 0;
         bs = GetComponent<BulletShooter>();
+        spring.autoConfigureDistance = false;
         spring.distance = springDistance;
         spring.dampingRatio = springDampening;
         spring.connectedBody = player.GetComponent<Rigidbody2D>();
         
+        
         if (spring.attachedRigidbody == null)
         {
             Debug.LogWarning("Player not attached to the SpringJoint2D on this friend!");
-        }
-        if (bs != null)
-        {
-            bs.friendlyShooter = true;
         }
     }
 
@@ -64,6 +67,11 @@ public class FriendAI : MonoBehaviour
         if (timeSinceLastTargetUpdate > timeBetweenTargetUpdates)
         {
             bs.SetTarget(FindTarget());
+        }
+
+        if (shouldAvoidAllies)
+        {
+            AvoidAllies();
         }
     }
 
@@ -86,5 +94,19 @@ public class FriendAI : MonoBehaviour
         }
         
         return closestEnemy != null ? closestEnemy.transform : null;
+    }
+    
+    private void AvoidAllies()
+    {
+        var collidersNearby = Physics2D.OverlapCircleAll(transform.position, avoidAlliesRange);
+       
+        foreach (var c in collidersNearby)
+        {
+            if (c.gameObject.CompareTag("Friend"))
+            {
+                var directionToCollider = c.transform.position - transform.position;
+                rb.AddForce(-directionToCollider * avoidAlliesForce);
+            }
+        }
     }
 }

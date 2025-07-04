@@ -8,13 +8,16 @@ public class BulletShooter : MonoBehaviour
     [SerializeField] private float timeBetweenShots = 1f;
     [SerializeField] private float bulletSpeed;
     private Transform currentTarget;
-    [HideInInspector] public bool friendlyShooter;
+    private bool friendlyShooter;
 
+    
+    [Header("Fixed Angle Settings")]
     [SerializeField] private bool shootAtFixedAngle;
     [Range(0,360)]
     [SerializeField] private float fixedAngle;
     [SerializeField] private float debugFixedAngleLineLength = 10f;
     private float timeSinceLastShot = Mathf.Infinity;
+    [SerializeField] private bool angleRelativeToFriend;
 
     private void OnDrawGizmosSelected()
     {
@@ -25,6 +28,12 @@ public class BulletShooter : MonoBehaviour
             Vector3 endPoint = transform.position + (Vector3)(direction * debugFixedAngleLineLength);
             Gizmos.DrawLine(transform.position, endPoint);
         }
+    }
+
+
+    private void Start()
+    {
+        friendlyShooter = CompareTag("Friend");
     }
 
     private void Update()
@@ -70,6 +79,12 @@ public class BulletShooter : MonoBehaviour
     private Vector2 GetDirectionFromAngle(float angle)
     {
         float angleRad = angle * Mathf.Deg2Rad;
+
+        if (angleRelativeToFriend)
+        {
+            angleRad += (transform.eulerAngles.z * Mathf.Deg2Rad);
+        }
+        
         return new Vector2(Mathf.Cos(angleRad), Mathf.Sin(angleRad));
     }
 }

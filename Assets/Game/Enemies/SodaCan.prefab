@@ -53,10 +53,10 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8080129663335587918, guid: 3f2e35d281fae294b80380a50049c8e2, type: 3}
   timeBetweenShots: 0.2
   bulletSpeed: 15
-  friendlyShooter: 0
   shootAtFixedAngle: 0
   fixedAngle: 0
   debugFixedAngleLineLength: 10
+  angleRelativeToFriend: 0
 --- !u!212 &6162130001017592421
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -171,6 +171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 5
+  currentHealth: 0
 --- !u!58 &-2791610433201619413
 CircleCollider2D:
   m_ObjectHideFlags: 0
