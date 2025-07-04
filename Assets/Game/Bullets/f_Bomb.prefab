@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6213771975594901837}
   - component: {fileID: 1483467704144088721}
   - component: {fileID: 1594757700974670818}
+  - component: {fileID: -837000864032445333}
   m_Layer: 7
   m_Name: f_Bomb
   m_TagString: Untagged
@@ -194,6 +195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 5
+  currentHealth: 0
 --- !u!82 &1594757700974670818
 AudioSource:
   m_ObjectHideFlags: 0
@@ -291,3 +293,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!111 &-837000864032445333
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8080129663335587918}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Animation: {fileID: 7400000, guid: bf1a31fd317907d4784ea2597aa95ef9, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_UpdateMode: 0
+  m_CullingType: 0

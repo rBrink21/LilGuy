@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7497097989700632953}
   - component: {fileID: 2867550322360486910}
   - component: {fileID: 8338103931604799327}
+  - component: {fileID: 1295154283448052153}
   m_Layer: 0
   m_Name: f_RapidFireBullet
   m_TagString: Untagged
@@ -207,6 +208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 2
+  currentHealth: 0
 --- !u!82 &8338103931604799327
 AudioSource:
   m_ObjectHideFlags: 0
@@ -304,3 +306,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!111 &1295154283448052153
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4832966746857086919}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Animation: {fileID: 7400000, guid: 47204f18a0586a34883025e60ea8af11, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_UpdateMode: 0
+  m_CullingType: 0

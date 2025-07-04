@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5974184001849247872}
   - component: {fileID: 5791472010578621939}
   - component: {fileID: 2297569766828693880}
-  - component: {fileID: 2301116174029296597}
+  - component: {fileID: 3404769594901810536}
   m_Layer: 7
   m_Name: f_fish
   m_TagString: Untagged
@@ -140,6 +140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 20
+  currentHealth: 0
 --- !u!82 &5791472010578621939
 AudioSource:
   m_ObjectHideFlags: 0
@@ -292,25 +293,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &2301116174029296597
-Animator:
-  serializedVersion: 7
+--- !u!111 &3404769594901810536
+Animation:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3917187917993797215}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 22d2b82803b4a014bb4b7ecc5678e6ec, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
+  serializedVersion: 4
+  m_Animation: {fileID: 7400000, guid: 9cc7384d6d6417e4391117f556fbe205, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
   m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_UpdateMode: 0
+  m_CullingType: 0

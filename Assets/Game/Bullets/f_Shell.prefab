@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 3087479249686361534}
   - component: {fileID: 1962982203949734938}
   - component: {fileID: 7751603200888176323}
+  - component: {fileID: 4067733687021174135}
   m_Layer: 7
   m_Name: f_Shell
   m_TagString: Untagged
@@ -207,6 +208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 2
+  currentHealth: 0
 --- !u!82 &7751603200888176323
 AudioSource:
   m_ObjectHideFlags: 0
@@ -304,3 +306,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!111 &4067733687021174135
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4746156202884295939}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Animation: {fileID: 7400000, guid: 153ee4a9477b8e347926f3f83e618537, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_UpdateMode: 0
+  m_CullingType: 0

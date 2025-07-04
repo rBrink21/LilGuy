@@ -1,0 +1,288 @@
+fileFormatVersion: 2
+guid: f63534c35fe47fa4b8f488d5d037a864
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3177349383891212366
+    second: Sprites-ProjectileChunk1_500x500_0
+  - first:
+      213: 2801868252278941770
+    second: Sprites-ProjectileChunk1_500x500_1
+  - first:
+      213: -952280974103664071
+    second: Sprites-ProjectileChunk1_500x500_2
+  - first:
+      213: 1723857972281322606
+    second: Sprites-ProjectileChunk1_500x500_3
+  - first:
+      213: 7495630168354550063
+    second: Sprites-ProjectileChunk1_500x500_4
+  - first:
+      213: 5378359425820054498
+    second: Sprites-ProjectileChunk1_500x500_5
+  - first:
+      213: -1223666559713493165
+    second: Sprites-ProjectileChunk1_500x500_6
+  - first:
+      213: 8259388596591070153
+    second: Sprites-ProjectileChunk1_500x500_7
+  - first:
+      213: -3917213730041747620
+    second: Sprites-ProjectileChunk1_500x500_8
+  - first:
+      213: -1270081217742011336
+    second: Sprites-ProjectileChunk1_500x500_9
+  - first:
+      213: 658135373314236461
+    second: Sprites-ProjectileChunk1_500x500_10
+  - first:
+      213: 4250472127666124523
+    second: Sprites-ProjectileChunk1_500x500_11
+  - first:
+      213: -1471059257756846266
+    second: Sprites-ProjectileChunk1_500x500_12
+  - first:
+      213: -6055866032424063725
+    second: Sprites-ProjectileChunk1_500x500_13
+  - first:
+      213: 532504193449076781
+    second: Sprites-ProjectileChunk1_500x500_14
+  - first:
+      213: -4784214617402971365
+    second: Sprites-ProjectileChunk1_500x500_15
+  - first:
+      213: -6400907357843089928
+    second: Sprites-ProjectileChunk1_500x500_16
+  - first:
+      213: 6315051402715383100
+    second: Sprites-ProjectileChunk1_500x500_17
+  - first:
+      213: 3119940339354761502
+    second: Sprites-ProjectileChunk1_500x500_18
+  - first:
+      213: -7553420915502513971
+    second: Sprites-ProjectileChunk1_500x500_19
+  - first:
+      213: -498128780608283499
+    second: Sprites-ProjectileChunk1_500x500_20
+  - first:
+      213: 4631436367770169471
+    second: Sprites-ProjectileChunk1_500x500_21
+  - first:
+      213: -8877332197111267764
+    second: Sprites-ProjectileChunk1_500x500_22
+  - first:
+      213: 6593580361486355114
+    second: Sprites-ProjectileChunk1_500x500_23
+  - first:
+      213: 7440288454475811055
+    second: Sprites-ProjectileChunk1_500x500_24
+  - first:
+      213: -3345156598576481056
+    second: Sprites-ProjectileChunk1_500x500_25
+  - first:
+      213: 2276688977276473905
+    second: Sprites-ProjectileChunk1_500x500_26
+  - first:
+      213: -6542406858516778153
+    second: Sprites-ProjectileChunk1_500x500_27
+  - first:
+      213: -8496842112283762070
+    second: Sprites-ProjectileChunk1_500x500_28
+  - first:
+      213: -2341661953868181918
+    second: Sprites-ProjectileChunk1_500x500_29
+  - first:
+      213: 1264155279195206442
+    second: Sprites-ProjectileChunk1_500x500_30
+  - first:
+      213: -7964229270657255597
+    second: Sprites-ProjectileChunk1_500x500_31
+  - first:
+      213: -3915831929985979153
+    second: Sprites-ProjectileChunk1_500x500_32
+  - first:
+      213: -3912473946894149270
+    second: Sprites-ProjectileChunk1_500x500_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprites-ProjectileChunk1_500x500_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e68bd0cf2238134da0a91177b9bc298
+      internalID: 1439706216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-ProjectileChunk1_500x500_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9e063b5bf8c114d8f9847fa355b8d7
+      internalID: -1134688750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-ProjectileChunk1_500x500_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f850e2d7aac5cb945ad75912c852f545
+      internalID: -1965875396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2b8fb2c26cd84b243a47d8299a58c87c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sprites-ProjectileChunk1_500x500_0: 1439706216
+      Sprites-ProjectileChunk1_500x500_1: -1134688750
+      Sprites-ProjectileChunk1_500x500_2: -1965875396
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

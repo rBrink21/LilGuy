@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1483467704144088721}
   - component: {fileID: 1801659952059253700}
   - component: {fileID: -8696719145267146596}
+  - component: {fileID: 7604211159255829417}
   m_Layer: 6
   m_Name: f_ShprimplerBullet
   m_TagString: Untagged
@@ -178,6 +179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 1
+  currentHealth: 0
 --- !u!82 &1801659952059253700
 AudioSource:
   m_ObjectHideFlags: 0
@@ -291,3 +293,19 @@ MonoBehaviour:
   lifetime: 3
   invulnerable: 0
   destroyAfterHit: 0
+--- !u!111 &7604211159255829417
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8080129663335587918}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Animation: {fileID: 7400000, guid: 7fe5972f41627154fade7a85c0b53df8, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_UpdateMode: 0
+  m_CullingType: 0
