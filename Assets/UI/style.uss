@@ -2,5 +2,76 @@
     font-size: 40px;
     color: white;
     -unity-text-align: middle-center;
-    -unity-font-definition: url("project://database/Assets/UI/Fonts/Oxanium-Medium.ttf?fileID=12800000&guid=48dc5dfd82bbf364d89ffc08ac001008&type=3#Oxanium-Medium");
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/Lacquer-Regular.ttf?fileID=12800000&guid=b8df2128398ea094faecc8c2c5137b1f&type=3#Lacquer-Regular");
+}
+
+.cardContainer{
+    flex: 1;
+    background-color: rgba(1, 1, 1, 0.44);
+    width: 100%;
+    justify-content: center;
+    align-self: center;
+    flex-direction: row;
+    padding: 20px;
+    padding-top: 9%;
+}
+.footer{
+    background-color: rgba(1, 1, 1, 0.44);
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 30px;
+    height: 20%;
+    padding-left: 20px;
+    flex-direction: row;
+}
+
+.card{
+    background-color: black;
+    width: 20%;
+    height: 100%;
+    font-size: 25px;
+    color: white;
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/Lacquer-Regular.ttf?fileID=12800000&guid=b8df2128398ea094faecc8c2c5137b1f&type=3#Lacquer-Regular");
+    margin-right: 4%;
+    justify-content: center;
+    transition: all 0.1s;
+    
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: white;
+    padding: 5px;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+}
+
+.card:hover{
+    background-color: #333333;
+}
+
+.sprite{
+    height: 250px;
+    width: 250px;
+    align-self: center;
+}
+.card Label{
+    width: 100%;
+    white-space: normal;
+    -unity-text-align: middle-center;
+}
+.description{
+    flex-grow: 1;
+    font-size: 20px;
+    white-space: normal;
+}
+
+.stats{
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: white;
+    justify-content: center;
+    
 }

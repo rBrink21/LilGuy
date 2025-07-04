@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<engine:UXML
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:engine="UnityEngine.UIElements"
-    xmlns:editor="UnityEditor.UIElements"
-    xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd"
->
-    
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/style.uss?fileID=7433441132597879392&amp;guid=386e96d018dc0ff4c8525314f2314bfb&amp;type=3#style" />
+    <engine:VisualElement style="flex-grow: 1;">
+        <engine:VisualElement name="cardContainer" class="cardContainer" />
+        <engine:VisualElement class="footer">
+            <engine:VisualElement class="icon" style="background-image: url(&quot;project://database/Assets/Assets/pause-button(1).png?fileID=2800000&amp;guid=c4dfbc77e76a04c4988e1e2b46b99343&amp;type=3#pause-button(1)&quot;); margin-top: 7px; padding-top: 0;" />
+            <engine:Label text="Paused" class="scoreText" />
+        </engine:VisualElement>
+    </engine:VisualElement>
 </engine:UXML>

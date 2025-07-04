@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3894866866367876023}
   m_Layer: 0
   m_Name: GameObject (5)
-  m_TagString: Untagged
+  m_TagString: Friend
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47,10 +47,10 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8080129663335587918, guid: 3123c819553724641a86a856356cd883, type: 3}
   timeBetweenShots: 3
   bulletSpeed: 15
-  friendlyShooter: 0
   shootAtFixedAngle: 1
   fixedAngle: 270
   debugFixedAngleLineLength: 10
+  angleRelativeToFriend: 1
 --- !u!1 &1008582866633158017
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,12 +141,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6487274971993041117, guid: 08b20a70b6836a742b147cc6fbc2c0a1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 08b20a70b6836a742b147cc6fbc2c0a1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.2, y: 0.2}
+  m_Size: {x: 5, y: 5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -191,7 +191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02e495a2670b7ea49a1ccb949b30525b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  springDistance: 5
+  springDistance: 6.56
   springDampening: 0.6
   targetingDistance: 20
   timeBetweenTargetUpdates: 1
@@ -249,7 +249,7 @@ SpringJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 5.281342
+  m_Distance: 2.8011782
   m_DampingRatio: 0
   m_Frequency: 1
 --- !u!114 &5450588845776715161
@@ -267,10 +267,10 @@ MonoBehaviour:
   bulletPrefab: {fileID: 3917187917993797215, guid: 95342a4d01942bc4498e7fccd578de89, type: 3}
   timeBetweenShots: 10
   bulletSpeed: 5
-  friendlyShooter: 0
   shootAtFixedAngle: 0
   fixedAngle: 84
   debugFixedAngleLineLength: 10
+  angleRelativeToFriend: 0
 --- !u!1 &2174908199901229825
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,7 +283,7 @@ GameObject:
   - component: {fileID: 833137706864490079}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: Friend
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -318,10 +318,10 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8080129663335587918, guid: 3123c819553724641a86a856356cd883, type: 3}
   timeBetweenShots: 3
   bulletSpeed: 15
-  friendlyShooter: 0
   shootAtFixedAngle: 1
   fixedAngle: 270
   debugFixedAngleLineLength: 10
+  angleRelativeToFriend: 1
 --- !u!1 &3941032881537078072
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,7 +334,7 @@ GameObject:
   - component: {fileID: 9026959107352400120}
   m_Layer: 0
   m_Name: GameObject (7)
-  m_TagString: Untagged
+  m_TagString: Friend
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -369,10 +369,10 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8080129663335587918, guid: 3123c819553724641a86a856356cd883, type: 3}
   timeBetweenShots: 3
   bulletSpeed: 15
-  friendlyShooter: 0
   shootAtFixedAngle: 1
   fixedAngle: 270
   debugFixedAngleLineLength: 10
+  angleRelativeToFriend: 1
 --- !u!1 &5083979962084110184
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,7 +385,7 @@ GameObject:
   - component: {fileID: 4432681765348390179}
   m_Layer: 0
   m_Name: GameObject (6)
-  m_TagString: Untagged
+  m_TagString: Friend
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -420,10 +420,10 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8080129663335587918, guid: 3123c819553724641a86a856356cd883, type: 3}
   timeBetweenShots: 3
   bulletSpeed: 15
-  friendlyShooter: 0
   shootAtFixedAngle: 1
   fixedAngle: 270
   debugFixedAngleLineLength: 10
+  angleRelativeToFriend: 1
 --- !u!1 &6362213069678977754
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,7 +436,7 @@ GameObject:
   - component: {fileID: 3719609285702506155}
   m_Layer: 0
   m_Name: GameObject (8)
-  m_TagString: Untagged
+  m_TagString: Friend
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -471,10 +471,10 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8080129663335587918, guid: 3123c819553724641a86a856356cd883, type: 3}
   timeBetweenShots: 3
   bulletSpeed: 15
-  friendlyShooter: 0
   shootAtFixedAngle: 1
   fixedAngle: 270
   debugFixedAngleLineLength: 10
+  angleRelativeToFriend: 1
 --- !u!1 &6429770721022165372
 GameObject:
   m_ObjectHideFlags: 0
@@ -487,7 +487,7 @@ GameObject:
   - component: {fileID: 2992492682719063120}
   m_Layer: 0
   m_Name: GameObject (4)
-  m_TagString: Untagged
+  m_TagString: Friend
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -522,10 +522,10 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8080129663335587918, guid: 3123c819553724641a86a856356cd883, type: 3}
   timeBetweenShots: 3
   bulletSpeed: 15
-  friendlyShooter: 0
   shootAtFixedAngle: 1
   fixedAngle: 270
   debugFixedAngleLineLength: 10
+  angleRelativeToFriend: 1
 --- !u!1 &6889573158062003969
 GameObject:
   m_ObjectHideFlags: 0
@@ -538,7 +538,7 @@ GameObject:
   - component: {fileID: 3442292444963770971}
   m_Layer: 0
   m_Name: GameObject (2)
-  m_TagString: Untagged
+  m_TagString: Friend
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -573,10 +573,10 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8080129663335587918, guid: 3123c819553724641a86a856356cd883, type: 3}
   timeBetweenShots: 3
   bulletSpeed: 15
-  friendlyShooter: 0
   shootAtFixedAngle: 1
   fixedAngle: 270
   debugFixedAngleLineLength: 10
+  angleRelativeToFriend: 1
 --- !u!1 &7322352901066424608
 GameObject:
   m_ObjectHideFlags: 0
@@ -589,7 +589,7 @@ GameObject:
   - component: {fileID: 4111517239729162661}
   m_Layer: 0
   m_Name: GameObject (1)
-  m_TagString: Untagged
+  m_TagString: Friend
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -624,10 +624,10 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8080129663335587918, guid: 3123c819553724641a86a856356cd883, type: 3}
   timeBetweenShots: 3
   bulletSpeed: 15
-  friendlyShooter: 0
   shootAtFixedAngle: 1
   fixedAngle: 270
   debugFixedAngleLineLength: 10
+  angleRelativeToFriend: 1
 --- !u!1 &8509272756441999830
 GameObject:
   m_ObjectHideFlags: 0
@@ -640,7 +640,7 @@ GameObject:
   - component: {fileID: 5587445201789365104}
   m_Layer: 0
   m_Name: GameObject (3)
-  m_TagString: Untagged
+  m_TagString: Friend
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -675,7 +675,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8080129663335587918, guid: 3123c819553724641a86a856356cd883, type: 3}
   timeBetweenShots: 3
   bulletSpeed: 15
-  friendlyShooter: 0
   shootAtFixedAngle: 1
   fixedAngle: 270
   debugFixedAngleLineLength: 10
+  angleRelativeToFriend: 1

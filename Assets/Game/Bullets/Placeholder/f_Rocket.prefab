@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6213771975594901837}
   - component: {fileID: 1483467704144088721}
   - component: {fileID: 1594757700974670818}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: f_Rocket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -179,6 +179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 5
   lifetime: 8
+  invulnerable: 0
   destroyAfterHit: 1
 --- !u!114 &1483467704144088721
 MonoBehaviour:

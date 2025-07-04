@@ -13,11 +13,10 @@ GameObject:
   - component: {fileID: 6188730260741105285}
   - component: {fileID: 5436524050802988083}
   - component: {fileID: 7522883528269582880}
-  - component: {fileID: 4019010274570313046}
   - component: {fileID: 3033132693436971712}
   - component: {fileID: 5450588845776715161}
   m_Layer: 8
-  m_Name: FZapSniper
+  m_Name: FRapidFire
   m_TagString: Friend
   m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -82,12 +81,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8966726969486664503, guid: ce7c3baa305730d4a898c23645bff2c3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d55b91d9040e9aa4b9f3ae1a11e3a002, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.2, y: 0.2}
+  m_Size: {x: 5, y: 5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -132,10 +131,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02e495a2670b7ea49a1ccb949b30525b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  springDistance: 6
-  springDampening: 0.13
-  targetingDistance: 100
-  timeBetweenTargetUpdates: 0.01
+  springDistance: 4
+  springDampening: 0.305
+  targetingDistance: 24
+  timeBetweenTargetUpdates: 0.5
 --- !u!58 &7522883528269582880
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -170,54 +169,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.016073704, y: -0.32226562}
-  m_Radius: 1.2362976
---- !u!61 &4019010274570313046
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1008582866633158017}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.42, y: 3.64}
-    newSize: {x: 0.2, y: 0.2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 2.42, y: 3.64}
-  m_EdgeRadius: 0
+  m_Offset: {x: 0.075376034, y: -0.052542806}
+  m_Radius: 0.8928418
 --- !u!231 &3033132693436971712
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -236,7 +189,7 @@ SpringJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 3.2439842
+  m_Distance: 2.8011782
   m_DampingRatio: 0
   m_Frequency: 1
 --- !u!114 &5450588845776715161
@@ -251,9 +204,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4092b9a64db9d364b8d5995fb520cb66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 8080129663335587918, guid: 61d52fb27dab27b46913babe8545146c, type: 3}
-  timeBetweenShots: 1.8
-  bulletSpeed: 50
+  bulletPrefab: {fileID: 4832966746857086919, guid: da6ed5442902550408a15723b849fd92, type: 3}
+  timeBetweenShots: 0.25
+  bulletSpeed: 12
   friendlyShooter: 0
   shootAtFixedAngle: 0
   fixedAngle: 0

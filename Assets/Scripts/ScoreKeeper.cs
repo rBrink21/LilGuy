@@ -11,9 +11,14 @@ public class ScoreKeeper : MonoBehaviour
     private void Start()
     {
         doc = GetComponent<UIDocument>().rootVisualElement;
-
+        LoadScoreText();
 
         // SubscribeToSpawners();
+    }
+
+    private void FixedUpdate()
+    {
+        LoadScoreText();
     }
 
     private void SubscribeToSpawners()
@@ -28,12 +33,18 @@ public class ScoreKeeper : MonoBehaviour
         }
     }
 
+    public void LoadScoreText()
+    {
+        doc = GetComponent<UIDocument>().rootVisualElement;
+        var scoreValue = doc.Q<Label>("scoreValue");
+        scoreValue.text = score.ToString();
+    }
+
     public void UpdateScore()
     {
-        var scoreValue = doc.Q<Label>("scoreValue");
-        score++;
-        scoreValue.text = score.ToString();
         
+        score++;
+        LoadScoreText();
         ScoreUpdated?.Invoke(score);
     }
 

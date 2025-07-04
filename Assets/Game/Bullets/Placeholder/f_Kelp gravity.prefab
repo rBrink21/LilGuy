@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 42271573572708397}
   - component: {fileID: 4109292467023418833}
   - component: {fileID: 4492175642492820117}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: f_Kelp gravity
   m_TagString: Untagged
   m_Icon: {fileID: 0}

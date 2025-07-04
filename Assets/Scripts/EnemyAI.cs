@@ -42,7 +42,6 @@ public class EnemyAI : MonoBehaviour
             foreach (var shooter in bs)
             {
                 shooter.SetTarget(GameObject.FindGameObjectWithTag("Player").transform);
-                shooter.friendlyShooter = false;
             }
             
         }
@@ -58,7 +57,6 @@ public class EnemyAI : MonoBehaviour
         foreach (var shooter in bs)
         {
             shooter.SetTarget(trans);
-            shooter.friendlyShooter = false;
         }
     }
     
