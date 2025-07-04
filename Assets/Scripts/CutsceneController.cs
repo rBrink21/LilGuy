@@ -12,6 +12,12 @@ public class CutsceneController : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            SceneManager.LoadScene(nextSceneIndex);
+        }
+        
+        
         timeElapsed += Time.deltaTime;
 
         if (!started && timeElapsed > startDelay)
