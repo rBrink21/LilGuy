@@ -45,7 +45,7 @@ namespace Friends
             }
 
             var cost = newFriendScoreThreshholds.ElementAt(friendsUnlocked);
-            if (score > cost)
+            if (score >= cost)
             {
                 UnlockFriend();
             }
@@ -66,6 +66,33 @@ namespace Friends
         {
             friendsUnlocked++;
             OnFriendUnlocked?.Invoke(GetFriendSelection(3));
+        }
+
+        public ScoreKeeper.ScoreRange GetScoreRangeCost()
+        {
+            if (friendsUnlocked >= newFriendScoreThreshholds.Count)
+            {
+                return new ScoreKeeper.ScoreRange
+                {
+                    low = 0,
+                    high = int.MaxValue,
+                };
+            }
+
+            if (friendsUnlocked == 0)
+            {
+                return new ScoreKeeper.ScoreRange
+                {
+                    low = 0,
+                    high = newFriendScoreThreshholds.ElementAt(0)
+                };
+            }
+
+            return new ScoreKeeper.ScoreRange
+            {
+                low = newFriendScoreThreshholds.ElementAt(friendsUnlocked - 1),
+                high = newFriendScoreThreshholds.ElementAt(friendsUnlocked)
+            };
         }
         
     }

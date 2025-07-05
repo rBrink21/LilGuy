@@ -1,4 +1,5 @@
 using System;
+using Friends;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
@@ -12,7 +13,7 @@ public class ScoreKeeper : MonoBehaviour
     {
         doc = GetComponent<UIDocument>().rootVisualElement;
         LoadScoreText();
-
+        UpdateProgressBar();
         // SubscribeToSpawners();
     }
 
@@ -33,6 +34,22 @@ public class ScoreKeeper : MonoBehaviour
         }
     }
 
+    public struct ScoreRange
+    {
+        public int low;
+        public int high;
+    }
+    
+    private void UpdateProgressBar()
+    {
+        var prog = doc.Q<ProgressBar>();
+        var range = FindFirstObjectByType<FriendManager>().GetScoreRangeCost();
+
+        prog.lowValue = range.low;
+        prog.highValue = range.high;
+        prog.value = score;
+    }
+    
     public void LoadScoreText()
     {
         doc = GetComponent<UIDocument>().rootVisualElement;
@@ -42,9 +59,9 @@ public class ScoreKeeper : MonoBehaviour
 
     public void UpdateScore()
     {
-        
         score++;
         LoadScoreText();
+        UpdateProgressBar();
         ScoreUpdated?.Invoke(score);
     }
 

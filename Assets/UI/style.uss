@@ -92,3 +92,8 @@
 #dialogueText{
     transition: all 1s;
 }
+
+.unity-progress-bar__progress{
+    background-color: #4dabff;
+    transition: all 0.3s;
+}

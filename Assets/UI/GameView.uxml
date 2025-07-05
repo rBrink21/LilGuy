@@ -2,9 +2,12 @@
     <Style src="project://database/Assets/UI/style.uss?fileID=7433441132597879392&amp;guid=386e96d018dc0ff4c8525314f2314bfb&amp;type=3#style" />
     <engine:VisualElement name="entireScreen" style="flex-grow: 1;">
         <engine:VisualElement name="header" style="flex-grow: 5; flex-direction: row; flex-basis: 64px;">
-            <engine:VisualElement name="scoreCard" style="flex-grow: 1; justify-content: center; flex-direction: row;">
-                <engine:Label text="score:" name="scoreLabel" class="scoreText" />
-                <engine:Label text="000" name="scoreValue" class="scoreText" />
+            <engine:VisualElement name="scoreCard" style="flex-grow: 1; ">
+                <engine:VisualElement style="justify-content: center; flex-direction: row;">
+                    <engine:Label text="score:" name="scoreLabel" class="scoreText" />
+                    <engine:Label text="000" name="scoreValue" class="scoreText" />
+                </engine:VisualElement>
+                <engine:ProgressBar class="progressBar"></engine:ProgressBar>
             </engine:VisualElement>
             <engine:VisualElement style="flex-grow: 5;" />
             <engine:VisualElement name="healthCard" style="flex-grow: 1; justify-content: center; flex-direction: row;">
