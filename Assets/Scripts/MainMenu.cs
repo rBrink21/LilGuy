@@ -8,7 +8,7 @@ using UnityEngine.UIElements;
 [RequireComponent(typeof(UIDocument))]
 public class MainMenu : MonoBehaviour
 {
-    const int GAME_SCENE_INDEX = 1;
+    const int GAME_SCENE_INDEX = 2;
     
     private void Start()
     {
