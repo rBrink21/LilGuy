@@ -80,3 +80,15 @@
     padding-bottom: 40px;
     justify-content: center;
 }
+
+.visible {
+    opacity: 1;
+}
+
+.invisible {
+    opacity: 0;
+}
+
+#dialogueText{
+    transition: all 1s;
+}

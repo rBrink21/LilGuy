@@ -21,7 +21,7 @@ public class DialogueList : ScriptableObject
     
     public DialogueLine GetLineByIndex(int index)
     {
-        return dialogueLines.First(d => d.index == index);
+        return dialogueLines.FirstOrDefault(d => d.index == index);
     }
 
     public DialogueLine GetNextUnshownLine()

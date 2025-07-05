@@ -3,7 +3,7 @@
     <engine:VisualElement name="entireScreen" style="flex-grow: 1;">
         <engine:VisualElement name="header" style="flex-grow: 5; flex-direction: row; flex-basis: 64px;">
             <engine:VisualElement name="scoreCard" style="flex-grow: 1; justify-content: center; flex-direction: row;">
-                <engine:Label text="Score:" name="scoreLabel" class="scoreText" />
+                <engine:Label text="score:" name="scoreLabel" class="scoreText" />
                 <engine:Label text="000" name="scoreValue" class="scoreText" />
             </engine:VisualElement>
             <engine:VisualElement style="flex-grow: 5;" />
@@ -13,7 +13,9 @@
             </engine:VisualElement>
         </engine:VisualElement>
         <engine:VisualElement name="body" style="flex-grow: 100; opacity: 1; display: flex;">
-            <engine:VisualElement style="flex-grow: 1; flex-basis: -59px;" />
+            <engine:VisualElement style="flex-grow: 1; flex-basis: -59px;">
+                <engine:Label text="Kinda long sample dialogue text line" name="dialogueText" class="scoreText inVisible invisible" style="position: absolute; left: 864px; right: auto; top: 62%; font-size: 49px; width: 957px; height: 292px; white-space: normal;" />
+            </engine:VisualElement>
         </engine:VisualElement>
     </engine:VisualElement>
 </engine:UXML>
