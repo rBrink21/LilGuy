@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pipes-door_0: -3643090506172746241
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

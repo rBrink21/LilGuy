@@ -2,12 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Random = System.Random;
 
 namespace Friends
 {
     public class FriendManager : MonoBehaviour
     {
+        public static FriendManager instance;
+        
         [SerializeField] List<int> newFriendScoreThreshholds;
         [SerializeField] private float postThreshholdsScalingFactor = 2f;
         [SerializeField] private ObtainableFriends obtainableFriendsAsset;
@@ -15,13 +18,41 @@ namespace Friends
         private static int friendsUnlocked;
         public Action<List<Friend>> OnFriendUnlocked;
 
+        public List<Friend> unlockedFriends =new List<Friend>();
         public bool debug;
+        
+        private void Awake()
+        {
+            if (instance == null)
+            {
+                instance = this;
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
+            DontDestroyOnLoad(gameObject);
+        }
+        
         private void Start()
         {
             // So you don't mutate the asset.
             obtainableFriends = obtainableFriendsAsset.obtainableFriends;
             friendsUnlocked = 0;
+            
             FindFirstObjectByType<ScoreKeeper>().ScoreUpdated += CheckIfNewFriendUnlocked;
+
+            SceneManager.sceneLoaded += Initialize;
+        }
+
+
+        private void Initialize(Scene scene, LoadSceneMode mode)
+        {
+            foreach (var friend in unlockedFriends)
+            {
+                var friendInstance = Instantiate(friend.friendPrefab);
+                friendInstance.transform.position = GameObject.FindWithTag("Player").transform.position;
+            }
         }
 
         private void Update()

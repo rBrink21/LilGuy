@@ -14,7 +14,7 @@ namespace UI
         private void Start()
         {
             doc = GetComponent<UIDocument>();
-            scoreKeeper = FindFirstObjectByType<ScoreKeeper>();
+            scoreKeeper = ScoreKeeper.instance;
             Time.timeScale = 1;
         }
 
@@ -31,8 +31,9 @@ namespace UI
             doc.rootVisualElement.Q<VisualElement>("mainMenuButtonGOScreen").AddManipulator(new Clickable(() =>
             {
                 SceneManager.LoadScene(1);
+                ScoreKeeper.score = 0;
             }));
-            doc.rootVisualElement.Q<Label>("finalScoreText").text = scoreKeeper.score.ToString();
+            doc.rootVisualElement.Q<Label>("finalScoreText").text = ScoreKeeper.score.ToString();
         }
     }
 }

@@ -3,18 +3,35 @@ using Friends;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
+
 public class ScoreKeeper : MonoBehaviour
 {
+    public static ScoreKeeper instance;
+    
     private VisualElement doc;
     public Action<int> ScoreUpdated;
-    [HideInInspector] public int score = 0;
-    
+    public static int score = 0;
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+        DontDestroyOnLoad(gameObject);
+    }
+
     private void Start()
     {
-        doc = GetComponent<UIDocument>().rootVisualElement;
+        doc = FindFirstObjectByType<UIDocument>().rootVisualElement;
         LoadScoreText();
         UpdateProgressBar();
         // SubscribeToSpawners();
+        SceneManager.sceneLoaded += Initialize;
     }
 
     private void FixedUpdate()
@@ -22,6 +39,14 @@ public class ScoreKeeper : MonoBehaviour
         LoadScoreText();
     }
 
+    
+    private void Initialize(Scene scene, LoadSceneMode mode)
+    {
+       doc = FindFirstObjectByType<UIDocument>().rootVisualElement;
+       LoadScoreText();
+       UpdateProgressBar();
+    }
+    
     private void SubscribeToSpawners()
     {
         var enemySpawners = FindObjectsByType<EnemySpawner>(FindObjectsSortMode.None);
@@ -43,7 +68,7 @@ public class ScoreKeeper : MonoBehaviour
     private void UpdateProgressBar()
     {
         var prog = doc.Q<ProgressBar>();
-        var range = FindFirstObjectByType<FriendManager>().GetScoreRangeCost();
+        var range = FriendManager.instance.GetScoreRangeCost();
 
         prog.lowValue = range.low;
         prog.highValue = range.high;
@@ -52,7 +77,7 @@ public class ScoreKeeper : MonoBehaviour
     
     public void LoadScoreText()
     {
-        doc = GetComponent<UIDocument>().rootVisualElement;
+        doc = FindFirstObjectByType<UIDocument>().rootVisualElement;
         var scoreValue = doc.Q<Label>("scoreValue");
         scoreValue.text = score.ToString();
     }

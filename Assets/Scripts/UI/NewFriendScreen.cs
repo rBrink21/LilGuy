@@ -17,7 +17,7 @@ namespace UI
         {
             doc = GetComponent<UIDocument>();
             originalRoot = doc.visualTreeAsset;
-            fm = FindFirstObjectByType<FriendManager>();
+            fm = FriendManager.instance;
             fm.OnFriendUnlocked += ShowScreen;
         }
 
@@ -43,6 +43,7 @@ namespace UI
 
         private void HandleFriendSelected(Friend friend)
         {
+            FriendManager.instance.unlockedFriends.Add(friend);
             var newFriend = Instantiate(friend.friendPrefab);
             newFriend.transform.position = GameObject.FindGameObjectWithTag("Player").transform.position;   
             StopShowingScreen();

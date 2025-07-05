@@ -32,7 +32,7 @@ public class DialogueManager : MonoBehaviour
     private void Start()
     {
         doc = FindFirstObjectByType<UIDocument>();
-        FindFirstObjectByType<ScoreKeeper>().ScoreUpdated += (OnScoreUpdated);
+        ScoreKeeper.instance.ScoreUpdated += (OnScoreUpdated);
     }
 
     private void Update()

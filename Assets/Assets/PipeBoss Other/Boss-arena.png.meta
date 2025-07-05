@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Boss-arena_0: -4294751603231949797
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
