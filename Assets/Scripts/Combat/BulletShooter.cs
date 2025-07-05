@@ -40,7 +40,9 @@ public class BulletShooter : MonoBehaviour
     {
         timeSinceLastShot += Time.deltaTime;
         
-        if (timeSinceLastShot > timeBetweenShots && (currentTarget != null || shootAtFixedAngle))
+        if (timeSinceLastShot > timeBetweenShots && (currentTarget != null || shootAtFixedAngle && Vector2.Distance(
+                transform.position, 
+                GameObject.FindGameObjectWithTag("Player").transform.position) < 20f))
         {
             if (shootAtFixedAngle)
             {
