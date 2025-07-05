@@ -1,7 +1,7 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/style.uss?fileID=7433441132597879392&amp;guid=386e96d018dc0ff4c8525314f2314bfb&amp;type=3#style" />
     <Style src="project://database/Assets/style.uss?fileID=7433441132597879392&amp;guid=a82ee0d3e24f8c445ba7cfd18ef4158a&amp;type=3#style" />
-    <engine:VisualElement picking-mode="Ignore" style="flex-grow: 1; -unity-font-definition: url(&quot;project://database/Assets/UI/Fonts/Oxanium-Medium.ttf?fileID=12800000&amp;guid=48dc5dfd82bbf364d89ffc08ac001008&amp;type=3#Oxanium-Medium&quot;); font-size: 40px; color: rgb(255, 57, 57); -unity-text-align: upper-center; background-color: rgb(43, 43, 43);">
+    <engine:VisualElement picking-mode="Ignore" style="flex-grow: 1; -unity-font-definition: url(&quot;project://database/Assets/UI/Fonts/Oxanium-Medium.ttf?fileID=12800000&amp;guid=48dc5dfd82bbf364d89ffc08ac001008&amp;type=3#Oxanium-Medium&quot;); font-size: 40px; color: rgb(255, 57, 57); -unity-text-align: upper-center; background-color: rgba(43, 43, 43, 0.8);">
         <engine:VisualElement picking-mode="Ignore" style="flex-grow: 1; padding-top: 422px; align-self: center;">
             <engine:Label text="GAME OVER" />
             <engine:Label text="YOUR SCORE WAS:" />

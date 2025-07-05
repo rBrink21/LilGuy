@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 42271573572708397}
   - component: {fileID: 4109292467023418833}
   - component: {fileID: 4492175642492820117}
-  - component: {fileID: -6096314803769717018}
   m_Layer: 0
   m_Name: f_Kelp
   m_TagString: Untagged
@@ -104,7 +103,7 @@ Animator:
   m_GameObject: {fileID: 8174902058405225357}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6ccb092db8cbd8b408a885505290fb0f, type: 2}
+  m_Controller: {fileID: 9100000, guid: fce3fe6b097161344a214f65a386547e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -316,19 +315,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3.3144302, y: 1.9168701}
   m_EdgeRadius: 0
---- !u!111 &-6096314803769717018
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8174902058405225357}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Animation: {fileID: 7400000, guid: 26c7f39c0d2bbdf4280b293023b0b38e, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_UpdateMode: 0
-  m_CullingType: 0

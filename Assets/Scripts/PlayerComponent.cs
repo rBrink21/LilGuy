@@ -9,7 +9,7 @@ public class PlayerComponent : MonoBehaviour
     [SerializeField] private float movementSpeed = 40f;
     [SerializeField] private float maxMovementSpeed = 1f;
     private Rigidbody2D rb;
-
+    
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();

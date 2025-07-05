@@ -12,7 +12,6 @@ public class Health : MonoBehaviour
     private void Start()
     {
         currentHealth = maxHealth;
-        healthUpdated?.Invoke(currentHealth);
     }
 
     public void UpdateHealth(int change)

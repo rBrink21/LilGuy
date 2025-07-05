@@ -29,7 +29,7 @@ namespace UI
         
             doc.rootVisualElement.Q<VisualElement>("mainMenuButtonGOScreen").AddManipulator(new Clickable(() =>
             {
-                SceneManager.LoadScene(0);
+                SceneManager.LoadScene(1);
             }));
             doc.rootVisualElement.Q<Label>("finalScoreText").text = scoreKeeper.score.ToString();
         }
