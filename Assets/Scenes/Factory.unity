@@ -10390,10 +10390,10 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8080129663335587918, guid: f6697d8393007b8469124f19745033d8, type: 3}
   timeBetweenShots: 0.293
   bulletSpeed: 15
-  friendlyShooter: 0
   shootAtFixedAngle: 1
   fixedAngle: 270.75
   debugFixedAngleLineLength: 10
+  angleRelativeToFriend: 0
 --- !u!1001 &306900689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18427,10 +18427,10 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8080129663335587918, guid: f6697d8393007b8469124f19745033d8, type: 3}
   timeBetweenShots: 0.323
   bulletSpeed: 15
-  friendlyShooter: 0
   shootAtFixedAngle: 1
   fixedAngle: 269.9
   debugFixedAngleLineLength: 10
+  angleRelativeToFriend: 0
 --- !u!4 &546087219 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8092815939093231138, guid: 6f420a25ec48440498ff4116075fc47b, type: 3}
@@ -21024,6 +21024,14 @@ PrefabInstance:
       propertyPath: orthographic size
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 1839733245225817064, guid: 856df369c6152e842bba1257d990c2f4, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: d9d117b508215b8449531eff2101c86c, type: 3}
+    - target: {fileID: 1839733245225817064, guid: 856df369c6152e842bba1257d990c2f4, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d9d117b508215b8449531eff2101c86c, type: 3}
     - target: {fileID: 2059408094611728429, guid: 856df369c6152e842bba1257d990c2f4, type: 3}
       propertyPath: m_Name
       value: Lil Guy (1)
@@ -38743,10 +38751,10 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8080129663335587918, guid: f6697d8393007b8469124f19745033d8, type: 3}
   timeBetweenShots: 0.3
   bulletSpeed: 15
-  friendlyShooter: 0
   shootAtFixedAngle: 1
   fixedAngle: 269.25
   debugFixedAngleLineLength: 10
+  angleRelativeToFriend: 0
 --- !u!1 &1118616902
 GameObject:
   m_ObjectHideFlags: 0
@@ -48073,10 +48081,10 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8080129663335587918, guid: f6697d8393007b8469124f19745033d8, type: 3}
   timeBetweenShots: 0.279
   bulletSpeed: 15
-  friendlyShooter: 0
   shootAtFixedAngle: 1
   fixedAngle: 269.65
   debugFixedAngleLineLength: 10
+  angleRelativeToFriend: 0
 --- !u!4 &1436026152 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3864257290134017199, guid: 5ff406d91960d9e468d94ca33991dbfa, type: 3}
@@ -52215,10 +52223,10 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8080129663335587918, guid: f6697d8393007b8469124f19745033d8, type: 3}
   timeBetweenShots: 0.309
   bulletSpeed: 15
-  friendlyShooter: 0
   shootAtFixedAngle: 1
   fixedAngle: 270.35
   debugFixedAngleLineLength: 10
+  angleRelativeToFriend: 0
 --- !u!4 &1606106477 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4900299567257815836, guid: c459baf54f901254abeec1f0daca2e5f, type: 3}
@@ -63902,10 +63910,10 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8080129663335587918, guid: f6697d8393007b8469124f19745033d8, type: 3}
   timeBetweenShots: 0.335
   bulletSpeed: 15
-  friendlyShooter: 0
   shootAtFixedAngle: 1
   fixedAngle: 270.1
   debugFixedAngleLineLength: 10
+  angleRelativeToFriend: 0
 --- !u!1 &1941079431
 GameObject:
   m_ObjectHideFlags: 0

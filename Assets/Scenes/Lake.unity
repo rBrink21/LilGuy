@@ -23223,6 +23223,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1839733245225817064, guid: 856df369c6152e842bba1257d990c2f4, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 74e60ff898d56b34fac9c6f39583b142, type: 3}
+    - target: {fileID: 1839733245225817064, guid: 856df369c6152e842bba1257d990c2f4, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 74e60ff898d56b34fac9c6f39583b142, type: 3}
     - target: {fileID: 2059408094611728429, guid: 856df369c6152e842bba1257d990c2f4, type: 3}
       propertyPath: m_Name
       value: Player
@@ -35888,6 +35896,8 @@ MonoBehaviour:
     showType: 1
     index: 2
   dialogueList: {fileID: 11400000, guid: e3a09be321abc154690d3970b475b533, type: 2}
+  dialogueShowTime: 20
+  debug: 0
 --- !u!1 &1730957496
 GameObject:
   m_ObjectHideFlags: 0
