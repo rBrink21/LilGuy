@@ -135,6 +135,9 @@ MonoBehaviour:
   springDampening: 0.13
   targetingDistance: 100
   timeBetweenTargetUpdates: 0.01
+  shouldAvoidAllies: 1
+  avoidAlliesRange: 2
+  avoidAlliesForce: 0.4
 --- !u!58 &7522883528269582880
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -204,10 +207,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4092b9a64db9d364b8d5995fb520cb66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 8080129663335587918, guid: 61d52fb27dab27b46913babe8545146c, type: 3}
+  bulletPrefab: {fileID: 5454770765193222218, guid: 78858c8815edf8b43bd475aa39310592, type: 3}
   timeBetweenShots: 1.8
-  bulletSpeed: 50
-  friendlyShooter: 0
+  bulletSpeed: 60
   shootAtFixedAngle: 0
   fixedAngle: 0
   debugFixedAngleLineLength: 10
+  angleRelativeToFriend: 0

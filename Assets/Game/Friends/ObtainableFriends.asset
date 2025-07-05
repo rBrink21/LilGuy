@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obtainableFriends:
   - friendPrefab: {fileID: 213581217727361914, guid: 4118eeb023cbb604c9cd9c7021b3620d, type: 3}
-    displayName: Bomber
-    description: Shoots big bullets that explode!
+    displayName: Bombdiver
+    description: Heavy artillery, for a plankton.
   - friendPrefab: {fileID: 1008582866633158017, guid: 9d3a2f791b7e10243b7d0d30afac5205, type: 3}
-    displayName: Rapid Fire Friend
-    description: Shoots many bullets at a high rate of fire.
+    displayName: Whipper Snapper
+    description: Nimble rapid fire shooter.
   - friendPrefab: {fileID: 1008582866633158017, guid: 3c369c132acd86c4aa83544ba1004778, type: 3}
-    displayName: Zappy Sniper
-    description: Shoots high powered bullets at high speed!
+    displayName: Zapopod
+    description: Zaps accurately at a distance.
   - friendPrefab: {fileID: 1008582866633158017, guid: 6d61f90e1ee98734c94b6268ed3d3d0d, type: 3}
-    displayName: Shrimpler
-    description: Big shrimp that shrimps a lot of bullets
+    displayName: Shprimpler Larva
+    description: Notoriously shy, hoses enemies away.
   - friendPrefab: {fileID: 1008582866633158017, guid: cedc45b8dd55759488b9a9c51c2d8215, type: 3}
     displayName: School Teacher
-    description: Has a school of fish
+    description: In command of a school of fish.
   - friendPrefab: {fileID: 7689587095033230014, guid: 280417a6b025a364cb958f7094804506, type: 3}
     displayName: Shotgun Shellfish
-    description: ShotGUN!!!!!
+    description: More of a scattergun approach.
