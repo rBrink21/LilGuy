@@ -23274,11 +23274,11 @@ PrefabInstance:
     - target: {fileID: 1839733245225817064, guid: 856df369c6152e842bba1257d990c2f4, type: 3}
       propertyPath: m_Resource
       value: 
-      objectReference: {fileID: 8300000, guid: 74e60ff898d56b34fac9c6f39583b142, type: 3}
+      objectReference: {fileID: 8300000, guid: bbcd5ac55153d4d4a89d1ce6cc42f6a8, type: 3}
     - target: {fileID: 1839733245225817064, guid: 856df369c6152e842bba1257d990c2f4, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 74e60ff898d56b34fac9c6f39583b142, type: 3}
+      objectReference: {fileID: 8300000, guid: bbcd5ac55153d4d4a89d1ce6cc42f6a8, type: 3}
     - target: {fileID: 2059408094611728429, guid: 856df369c6152e842bba1257d990c2f4, type: 3}
       propertyPath: m_Name
       value: Player

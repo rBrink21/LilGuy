@@ -21027,11 +21027,11 @@ PrefabInstance:
     - target: {fileID: 1839733245225817064, guid: 856df369c6152e842bba1257d990c2f4, type: 3}
       propertyPath: m_Resource
       value: 
-      objectReference: {fileID: 8300000, guid: d9d117b508215b8449531eff2101c86c, type: 3}
+      objectReference: {fileID: 8300000, guid: 45d711b61a241564396e648d5d57025c, type: 3}
     - target: {fileID: 1839733245225817064, guid: 856df369c6152e842bba1257d990c2f4, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: d9d117b508215b8449531eff2101c86c, type: 3}
+      objectReference: {fileID: 8300000, guid: 45d711b61a241564396e648d5d57025c, type: 3}
     - target: {fileID: 2059408094611728429, guid: 856df369c6152e842bba1257d990c2f4, type: 3}
       propertyPath: m_Name
       value: Lil Guy (1)
