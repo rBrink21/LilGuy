@@ -14,12 +14,22 @@ namespace Friends
         private List<Friend> obtainableFriends;
         public static int friendsUnlocked;
         public Action<List<Friend>> OnFriendUnlocked;
+
+        public bool debug;
         private void Start()
         {
             // So you don't mutate the asset.
             obtainableFriends = obtainableFriendsAsset.obtainableFriends;
             
             FindFirstObjectByType<ScoreKeeper>().ScoreUpdated += CheckIfNewFriendUnlocked;
+        }
+
+        private void Update()
+        {
+            if (debug && Input.GetKeyDown(KeyCode.R))
+            {
+                OnFriendUnlocked?.Invoke(GetFriendSelection(3));
+            }
         }
 
         private void CheckIfNewFriendUnlocked(int score)

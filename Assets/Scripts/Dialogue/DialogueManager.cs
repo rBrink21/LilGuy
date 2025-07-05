@@ -57,12 +57,21 @@ public class DialogueManager : MonoBehaviour
 
     private void OnScoreUpdated(int score)
     {
-        foreach (var condition in dialogueConditions.Where(d => d.conditionType == DialogueCondition.ConditionType.Score))
+        var usedCondition = new List<DialogueCondition>();
+        foreach (var condition in dialogueConditions.Where(
+                     d => d.conditionType == DialogueCondition.ConditionType.Score))
         {
             if (score >= condition.amount)
             {
                 ShowDialogue(condition);
+                // have to delete outside for loop.
+                usedCondition.Add(condition);
             }
+        }
+        // have to loop and use list to avoid uninitialized.
+        foreach (DialogueCondition condition in usedCondition)
+        {
+            dialogueConditions.Remove(condition);
         }
     }
 

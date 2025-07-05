@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1506368946659645991}
-  - component: {fileID: 7686038181333729608}
   - component: {fileID: 4694657357120322847}
   - component: {fileID: 656965338069771476}
   - component: {fileID: 8258063172988207034}
@@ -39,25 +38,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7686038181333729608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2915378224031396638}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4092b9a64db9d364b8d5995fb520cb66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 8080129663335587918, guid: ee3290d6c73555c48a34573c09e2be6f, type: 3}
-  timeBetweenShots: 100000
-  bulletSpeed: 10
-  friendlyShooter: 0
-  shootAtFixedAngle: 0
-  fixedAngle: 0
-  debugFixedAngleLineLength: 10
 --- !u!212 &4694657357120322847
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -172,6 +152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 25
+  currentHealth: 0
 --- !u!58 &1827618741440475825
 CircleCollider2D:
   m_ObjectHideFlags: 0
