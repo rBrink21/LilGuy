@@ -12,7 +12,7 @@ namespace Friends
         [SerializeField] private float postThreshholdsScalingFactor = 2f;
         [SerializeField] private ObtainableFriends obtainableFriendsAsset;
         private List<Friend> obtainableFriends;
-        public static int friendsUnlocked;
+        private static int friendsUnlocked;
         public Action<List<Friend>> OnFriendUnlocked;
 
         public bool debug;
@@ -20,7 +20,7 @@ namespace Friends
         {
             // So you don't mutate the asset.
             obtainableFriends = obtainableFriendsAsset.obtainableFriends;
-            
+            friendsUnlocked = 0;
             FindFirstObjectByType<ScoreKeeper>().ScoreUpdated += CheckIfNewFriendUnlocked;
         }
 

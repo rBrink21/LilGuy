@@ -1,0 +1,294 @@
+fileFormatVersion: 2
+guid: b948281833149854baf4ebc9d837956e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -518558925994811968
+    second: Sprites-pollution_0
+  - first:
+      213: -8010834734691739240
+    second: Sprites-pollution_1
+  - first:
+      213: -3901941288899880747
+    second: Sprites-pollution_2
+  - first:
+      213: -5102472378555536917
+    second: Sprites-pollution_3
+  - first:
+      213: 4378201086595645904
+    second: Sprites-pollution_4
+  - first:
+      213: -2956097996351111407
+    second: Sprites-pollution_5
+  - first:
+      213: -5191750337398629583
+    second: Sprites-pollution_6
+  - first:
+      213: 8171593641865011524
+    second: Sprites-pollution_7
+  - first:
+      213: 172981250582636613
+    second: Sprites-pollution_8
+  - first:
+      213: -4403230338322616923
+    second: Sprites-pollution_9
+  - first:
+      213: -4179585888104991866
+    second: Sprites-pollution_10
+  - first:
+      213: -4763481947516510926
+    second: Sprites-pollution_11
+  - first:
+      213: 2195003767552124250
+    second: Sprites-pollution_12
+  - first:
+      213: -6719992179513683838
+    second: Sprites-pollution_13
+  - first:
+      213: 5692750596911923264
+    second: Sprites-pollution_14
+  - first:
+      213: -5424497751788033785
+    second: Sprites-pollution_15
+  - first:
+      213: -5842937513269519455
+    second: Sprites-pollution_16
+  - first:
+      213: -6863290977284449758
+    second: Sprites-pollution_17
+  - first:
+      213: 809867286080123320
+    second: Sprites-pollution_18
+  - first:
+      213: -3817743821293708071
+    second: Sprites-pollution_19
+  - first:
+      213: -6712345255479599177
+    second: Sprites-pollution_20
+  - first:
+      213: -2060260179193987806
+    second: Sprites-pollution_21
+  - first:
+      213: 474390454898341506
+    second: Sprites-pollution_22
+  - first:
+      213: 6730325191331029195
+    second: Sprites-pollution_23
+  - first:
+      213: 3695728426618002337
+    second: Sprites-pollution_24
+  - first:
+      213: 5031199550343284255
+    second: Sprites-pollution_25
+  - first:
+      213: -1419074216677728456
+    second: Sprites-pollution_26
+  - first:
+      213: -5496969759620556089
+    second: Sprites-pollution_27
+  - first:
+      213: -2662265722990207878
+    second: Sprites-pollution_28
+  - first:
+      213: 453165892461167108
+    second: Sprites-pollution_29
+  - first:
+      213: 3517159817247744173
+    second: Sprites-pollution_30
+  - first:
+      213: -8422544826416998088
+    second: Sprites-pollution_31
+  - first:
+      213: -6858954280083687493
+    second: Sprites-pollution_32
+  - first:
+      213: 1732992934651754856
+    second: Sprites-pollution_33
+  - first:
+      213: 6169991333207589808
+    second: Sprites-pollution_34
+  - first:
+      213: 5027791569788880818
+    second: Sprites-pollution_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprites-pollution_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3859d663b4ad5249a85974f9da1569d
+      internalID: -939368755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-pollution_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1c63ec7c5bb694baba358a20ba6839
+      internalID: -1640247149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites-pollution_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f00eb6febae2f4d8636f8582a3146b
+      internalID: -1695787166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bfabf6153b9a9754a8c5263767cd6383
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sprites-pollution_0: -939368755
+      Sprites-pollution_1: -1640247149
+      Sprites-pollution_2: -1695787166
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
