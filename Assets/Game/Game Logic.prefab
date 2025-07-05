@@ -138,6 +138,7 @@ MonoBehaviour:
   newFriendScoreThreshholds: 050000000f0000001e00000032000000460000006400000096000000c80000009001000058020000e8030000a00f00001027000080969800
   postThreshholdsScalingFactor: 2
   obtainableFriendsAsset: {fileID: 11400000, guid: a6b850544e872944d80454c7e89af9e3, type: 2}
+  debug: 0
 --- !u!1 &6487136838712741200
 GameObject:
   m_ObjectHideFlags: 0
@@ -360,6 +361,7 @@ GameObject:
   - component: {fileID: 1792911702434569511}
   - component: {fileID: 299496395391625149}
   - component: {fileID: 1709872991286128216}
+  - component: {fileID: 8621805121482507033}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -453,6 +455,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newFriendScreen: {fileID: 9197481963319205126, guid: 24c633b53f0ea88428528ad6fb2a0f84, type: 3}
   cardTemplate: {fileID: 9197481963319205126, guid: 3e6d2e686641f2a4c87faa11e547dfe9, type: 3}
+--- !u!114 &8621805121482507033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7866283649471587131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c771011ac51b46d59489b42e69372eda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseScreen: {fileID: 9197481963319205126, guid: 755aedf955647434fb55bd8e17f06a7f, type: 3}
 --- !u!1 &9097894367472896048
 GameObject:
   m_ObjectHideFlags: 0
