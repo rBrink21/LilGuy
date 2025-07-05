@@ -144,6 +144,7 @@ GameObject:
   - component: {fileID: 6241963448709543156}
   - component: {fileID: 1839733245225817064}
   - component: {fileID: -4763388961148107951}
+  - component: {fileID: 8799220145646485752}
   m_Layer: 8
   m_Name: Lil Guy
   m_TagString: Player
@@ -428,3 +429,17 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2059408094611728429}
   m_Enabled: 1
+--- !u!114 &8799220145646485752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059408094611728429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccb16acc85324b9b97f5b597feb479b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashMaterial: {fileID: 2100000, guid: e7ea41e022a5a35489d0cf3621287c7c, type: 2}
+  flashDuration: 0.4

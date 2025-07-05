@@ -39,6 +39,10 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueShownDuration += Time.deltaTime;
         var dialogueText = doc.rootVisualElement.Q<Label>("dialogueText");
+        if (dialogueText == null)
+        {
+            return;
+        }
         if (dialogueShownDuration > dialogueShowTime && !dialogueText.GetClasses().Contains("invisible"))
         {
             dialogueText.AddToClassList("invisible");
