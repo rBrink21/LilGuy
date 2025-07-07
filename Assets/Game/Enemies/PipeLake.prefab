@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 6162130001017592421}
   - component: {fileID: 6707273014855003471}
   - component: {fileID: 4776581556886836416}
-  - component: {fileID: -7311164565526930028}
   - component: {fileID: -2791610433201619413}
   - component: {fileID: -601749400087157805}
+  - component: {fileID: 326730177056195956}
+  - component: {fileID: 7559988002927565864}
   m_Layer: 9
   m_Name: PipeLake
   m_TagString: Untagged
@@ -51,10 +52,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 9212754429173673561, guid: 7edd11c4a7da119448e7f5442bf18b7b, type: 3}
-  timeBetweenShots: 1
+  timeBetweenShots: 4
   bulletSpeed: 12
-  shootAtFixedAngle: 0
-  fixedAngle: 0
+  shootAtFixedAngle: 1
+  fixedAngle: 346
   debugFixedAngleLineLength: 10
   angleRelativeToFriend: 0
 --- !u!212 &6162130001017592421
@@ -101,7 +102,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 7868643954162400473, guid: da24f46f6f5d29848801b75cf4fd86f8, type: 3}
+  m_Sprite: {fileID: 7764890631180850477, guid: bcab0860c36f3524097ddfa27dcf1d4a, type: 3}
   m_Color: {r: 0.79607844, g: 0.2627451, b: 0.3137255, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -158,20 +159,6 @@ MonoBehaviour:
   avoidAlliesRange: 10
   avoidAlliesForce: 1
   deathPickup: {fileID: 0}
---- !u!114 &-7311164565526930028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8910471784273811227}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0a1fb22b91f25429558262a172ecdf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 1000
-  currentHealth: 0
 --- !u!58 &-2791610433201619413
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -179,7 +166,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8910471784273811227}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -226,5 +213,97 @@ MonoBehaviour:
   spawnDelay: 60
   maxEnemiesAlive: 1
   maxEnemiesSpawned: 500
-  minimumSpawnRange: 15
-  drawDebugMinSpawnRangeSphere: 0
+  minimumSpawnRange: 16.4
+  drawDebugMinSpawnRangeSphere: 1
+--- !u!61 &326730177056195956
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8910471784273811227}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -2.0630317, y: -0.403306}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.35, y: 15.12}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.76671517, y: 14.313387}
+  m_EdgeRadius: 0
+--- !u!61 &7559988002927565864
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8910471784273811227}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 1.9769517, y: -0.403306}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.35, y: 15.12}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.7810886, y: 14.313387}
+  m_EdgeRadius: 0
