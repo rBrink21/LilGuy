@@ -30,13 +30,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8910471784273811227}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 40, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!114 &5440214704465453256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52,10 +52,10 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8080129663335587918, guid: 2c6a0948f53b4e8469913c4d47fc0df6, type: 3}
   timeBetweenShots: 2
   bulletSpeed: 10
-  friendlyShooter: 0
   shootAtFixedAngle: 1
   fixedAngle: 90
   debugFixedAngleLineLength: 10
+  angleRelativeToFriend: 0
 --- !u!212 &6162130001017592421
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -100,7 +100,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: -3643090506172746241, guid: b4ba9117bcf6a654fa3721525a945d21, type: 3}
   m_Color: {r: 0.4641509, g: 0.4641509, b: 0.4641509, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -156,6 +156,7 @@ MonoBehaviour:
   shouldAvoidAllies: 1
   avoidAlliesRange: 10
   avoidAlliesForce: 1
+  deathPickup: {fileID: 0}
 --- !u!114 &-7311164565526930028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,6 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 1000
+  currentHealth: 0
 --- !u!58 &-2791610433201619413
 CircleCollider2D:
   m_ObjectHideFlags: 0
